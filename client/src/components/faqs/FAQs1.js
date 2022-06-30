@@ -40,28 +40,28 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 
 export default ({
   subheading = "Intrebari frecvente",
-  heading = "You have Questions ?",
-  description = "Noi avem raspunsuri la intrebarile dumneavoastra",
+  heading = "Got any Questions ?",
+  description = "We got the answers to your questions",
   faqs = [
     {
-      question: "Am nevoie din punct de vedere legal de management energetic?",
+      question: "",
       answer:
-        "Conform legii 121/2014, operatorii economici sunt obligati să numească un manager energetic, atestat de Ministerul Energiei sau Autoritatea Națională de Reglementare în Domeniul Energiei, în termenul valabilității atestatului, conform legislației în vigoare, sau să încheie un contract de management energetic cu o persoană fizică atestată de Direcția eficiență energetică, care are statut de persoană fizică autorizată, sau cu o persoană juridică prestatoare de servicii energetice, atestată în condițiile legii"
+        ""
     },
     {
-      question: "Am nevoie din punct de vedere legal de audit energetic?",
+      question: "",
       answer:
-        "Conform legii 121/2014, operatorii economici sunt obligati să efectueze o dată la 4 ani un audit energetic pe un contur de consum energetic stabilit de operatorul economic, care să reprezinte cel puțin 50% din consumul energetic total al operatorului economic"
+        ""
     },
     {
-      question: "Cine poate sa efectueze servicii de audit si management energetic?",
+      question: "",
       answer:
-        "Serviciile de audit si management enrgetic pot fi efectuate NUMAI de catre operatori economici autorizati si atestati de catre Ministerul Energiei sau Autoritatea Natioanal de Reglementare in Domeniul Energiei cu personal specializat, autorizat si atestat conform legislatiei in vigoare"
+        ""
     },
     {
-      question: "Pot sa accesez fonduri europene nerambursabile fara efectuarea unui audit energetic recent?",
+      question: "",
       answer:
-        "In ghidurile de finantare este o cerinta obligatorie efectuarea unui audit energetic pentru a putea accesa fonduri europene nerambursabile de catre operatorii economici"
+        ""
     }
   ]
 }) => {

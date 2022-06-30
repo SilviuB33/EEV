@@ -141,12 +141,6 @@ const AddService = () => {
     
 const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="/AboutUs">
-        Despre noi
-      </NavLink>
-      {/* <NavLink href="/Pricing">
-        Prețuri
-      </NavLink> */}
       <NavLink href="/DashboardAdm">
         Dashboard
       </NavLink>

@@ -185,10 +185,10 @@ const submitButtonText = "Add Consumption"
         Home
       </NavLink>
       <NavLink href="/AboutUs">
-        Despre noi
+        About
       </NavLink>
       <NavLink href="/ContactUs">
-        Contactează-ne
+        Contact
       </NavLink>
       <NavLink href="/faq">
         FAQs

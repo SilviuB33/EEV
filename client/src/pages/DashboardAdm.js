@@ -243,9 +243,6 @@ const deleteMessagesLoggedIn = async (id) => {
 
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="/AboutUs">
-        Despre noi
-      </NavLink>
       <NavLink href="/AddServices">
         Add a new service
       </NavLink>

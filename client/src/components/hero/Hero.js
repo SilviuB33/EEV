@@ -53,9 +53,8 @@ export default ({
   const buttonRoundedCss = buttonRounded && tw`rounded-full`;
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="/AboutUs">Despre noi</NavLink>
-      {/* <NavLink href="/Pricing">Prețuri</NavLink> */}
-      <NavLink href="/ContactUs">Contactează-ne!</NavLink>
+      <NavLink href="/AboutUs">About</NavLink>
+      <NavLink href="/ContactUs">Contact</NavLink>
       <NavLink href="/Dashboard">Dashboard</NavLink>
       <NavLink href="/faq">FAQs</NavLink>
     </NavLinks>,

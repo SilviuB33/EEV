@@ -38,7 +38,7 @@ const navLinks = [
       Home
     </NavLink>
     <NavLink href="/ContactUs">
-      Contactează-ne
+      Contact
     </NavLink>
     <NavLink href="/dashboard">
       Dashboard
@@ -58,8 +58,8 @@ const navLinks = [
         </HeroContainer>
       <MainFeature1
         subheading={<Subheading>About Extron</Subheading>}
-        description="Suntem o firma tanara adaptata cerintelor curente pe piata energiei, menita sa ajute si sa dezvolte societati economice care se confrunta cu dificultati in imbunatatirea eficientei energetice si reducerea amprentei de carbon"
-        heading="Suntem o firma TANARA"
+        description="We are a modern company adapted to the current requirements of the energy market, designed to help and develop economic companies that face difficulties in improving energy efficiency and reducing their carbon footprint"
+        heading="We are a MODERN company"
         buttonRounded={false}
         primaryButtonText="Get in touch!"
         primaryButtonUrl = "/ContactUs"
@@ -69,9 +69,9 @@ const navLinks = [
       />
       <MainFeature1
         subheading={<Subheading>Our Vision</Subheading>}
-        description="Luptam pentru un viitor mai curat si verde, in care impactul asupra mediului este redus semnificativ. Promovam solutii inovatoare pentru reducerea amprentei de carbon.
-        Sprijinim toti partenerii nostri in completarea declaratiilor de tip ESG (Environmental, social, and corporate governance) si CDP (Carbon Disclosure Project)"
-        heading="Pentru un viitor SUSTENABIL"
+        description="We are fighting for a cleaner and greener future where the environmental impact is significantly reduced. We promote innovative solutions to reduce the carbon footprint.
+        We support all our partners in completing ESG (environmental, social, and corporate governance) and CDP (carbon disclosure project) statements."
+        heading="For a sustainable FUTURE"
         buttonRounded={false}
         primaryButtonText="More about CDP here"
         primaryButton2Text="More about ESG here"
@@ -81,28 +81,28 @@ const navLinks = [
         textOnLeft={false}
       />
       <Features
-         heading={<>Atribute <HighlightedText> calitative</HighlightedText></>}
-        subheading= "Ce ne definește"
-        description= "Toți partenerii noștrii beneficiază de "
+        heading={<>Atributes <HighlightedText> qualitative</HighlightedText></>}
+        subheading= "What defines us"
+        description= "All of our partners benefit from "
         cards={[
         {imageSrc:ShieldIconImage,
-          title:"Siguranță",
-         description: "Asigurăm securitatea energetică a afacerii tale"},
+          title:"Safety",
+         description: "We ensure the energy security of your business"},
         {imageSrc: SupportIconImage,
         title: "24/7 Support" ,
-          description: "Suntem întotdeauna la dispoziția clientului"},
+          description: "We are always available to our partners"},
         {imageSrc: CustomizeIconImage,
           title: "Customizable", 
-          description: "Servicii personalizate neovilor companiei"},
+          description: "Services tailored to the needs of the company"},
         {imageSrc: FastIconImage,
-        title: "De încredere", 
-        description: "Dorim parteneriate pe termen lung alături de clienții noștri."},
+        title: "Trustworthy", 
+        description: "We want long-term partnerships with our partners"},
         {imageSrc: ReliableIconImage,
         title: "Fast", 
-        description: "Intervenții prompte și de calitate"},
+        description: "Prompt and quality interventions"},
         {imageSrc:SimpleIconImage,
         title: "Easy", 
-        description: "Comunicare eficientă și la standarde înalte"}
+        description: "Effective communication at high standards"}
         ]}
       />
       <Footer />

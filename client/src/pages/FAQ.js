@@ -30,10 +30,10 @@ const navLinks = [
       Home
     </NavLink>
     <NavLink href="/AboutUs">
-      Despre noi
+      About
     </NavLink>
     <NavLink href="/ContactUs">
-      Contactează-ne
+      Contact
     </NavLink>
     <NavLink href="/dashboard">
       Dashboard
@@ -49,10 +49,11 @@ const navLinks = [
         <StyledHeader links={navLinks} />
           </HeroContainer>
       <FAQ
-      faqs={[{question:"Am nevoie din punct de vedere legal de management energetic?", answer:"Conform legii 121/2014, operatorii economici sunt obligati să numească un manager energetic, atestat de Ministerul Energiei sau Autoritatea Națională de Reglementare în Domeniul Energiei, în termenul valabilității atestatului, conform legislației în vigoare, sau să încheie un contract de management energetic cu o persoană fizică atestată de Direcția eficiență energetică, care are statut de persoană fizică autorizată, sau cu o persoană juridică prestatoare de servicii energetice, atestată în condițiile legii"}, 
-      {question:"Am nevoie din punct de vedere legal de audit energetic?", answer:"Conform legii 121/2014, operatorii economici sunt obligati să efectueze o dată la 4 ani un audit energetic pe un contur de consum energetic stabilit de operatorul economic, care să reprezinte cel puțin 50% din consumul energetic total al operatorului economic"},
-      {question:"Cine poate sa efectueze servicii de audit si management energetic?", answer:"Serviciile de audit si management enrgetic pot fi efectuate NUMAI de catre operatori economici autorizati si atestati de catre Ministerul Energiei sau Autoritatea Natioanal de Reglementare in Domeniul Energiei cu personal specializat, autorizat si atestat conform legislatiei in vigoare"},
-      {question:"Pot sa accesez fonduri europene nerambursabile fara efectuarea unui audit energetic recent?", answer:"In ghidurile de finantare este o cerinta obligatorie efectuarea unui audit energetic pentru a putea accesa fonduri europene nerambursabile de catre operatorii economici"}]}
+      description="Here are some of the most frequently asked questions that we receive and the answer to them. If you have any more questions you can contact us and we will surely answer them!"
+       faqs={[{question:"Legally, do I need energy management?", answer:"According to law 121/2014, economic operators are obliged to appoint an energy manager, certified by the Ministry of Energy or the National Regulatory Authority in the Field of Energy, within the term of validity of the attestation, according to the legislation in force, or to conclude an energy management contract with an individual certified by the Energy efficiency Directorate, who has the status of an authorized individual person, or with a legal entity providing energy services, certified under the law"}, 
+      {question:"Legally, do I need an energy audit?", answer:"According to law 121/2014, economic operators are obliged to conduct an energy audit every 4 years on an energy consumption contour established by the economic operator, representing at least 50% of the total energy consumption of the economic operator"},
+      {question:"Who can perform energy management and audit services?", answer:"Audit and management services can be performed ONLY by economic operators authorized and certified by the Ministry of Energy or the National Energy Regulatory Authority with specialized personnel, authorized and certified according to the legislation in force"},
+      {question:"Can I access non-reimbursable European funds without conducting a recent energy audit?", answer:"In the financing guides, it is a mandatory requirement to conduct an energy audit in order to be able to access non-reimbursable European funds"}]}
       />
       <Footer />
     </AnimationRevealPage>

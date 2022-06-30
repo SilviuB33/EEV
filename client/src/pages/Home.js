@@ -21,70 +21,72 @@ const HighlightedText = tw.span`text-primary-500`
 export default () => {
   return (
     <AnimationRevealPage>
-      <Hero 
-      features = {["Specialiști în domeniul energetic", "Servicii de calitate", "Prețuri adaptate cerințelor"]}
-      heading = "Servicii energetice personalizate nevoilor tale!"
-      description = "Extron Energy Vision se bazează pe experiența profesioniștilor săi pentru a îmbunătăți considerabil siguranța și securitatea energetică a societății tale!"
+      <Hero
+      heading = "Energy services tailored to your needs!"
+      features = {["Energy specialists", "Quality services", "Prices adapted to the requirements"]}
+      description = "Extron Energy vision resorts on the experience of its professionals to considerably improve the safety and energy security of your company!"
       imageSrc = "https://alger.mae.ro/sites/alger.mae.ro/files/images/img_20170427_131223.jpg"
       primaryButtonUrl = "/ContactUs"
-      primaryButtonText = "Contactează-ne!"
+      primaryButtonText = "Contact us!"
       testimonial={{
-      quote:"Alături de echipa EEV am reușit să mențin compania în topul societăților de succes.", 
+      quote:"Together with the EEV team, I managed to keep the company in the top of the successful companies!.", 
       customerName:"Jean Drugescu", 
       customerCompany:"Metaplast SA"
       }}
       />
       <FeatureStats
-      heading = "Avem angajați calificati si certificati de Ministerul Energiei din Romania!"
-      description= "Angajatii nostri sunt calificati pentru job-ul pe care il presteaza si dau dovada de tenacitate si de multa experienta."
-      stats={[{key:"energetic", value:"Management"}, {key:"complex", value:"Audit"}, {key:"proiectare", value:"Inginerie"}]}
+      heading = "We have qualified employees certified, by the Romanian Ministry of Energy!"
+      description= "Our employees are qualified for the job they perform and show tenacity and experience."
+      stats={[{key:"Management", value:"Energy"}, {key:"Audit", value:"Complex"}, {key:"Engineering", value:"Design"}]}
       />
       <Features 
-        heading={<>Atribute <HighlightedText> calitative</HighlightedText></>}
-        subheading= "Ce ne definește"
-        description= "Toți partenerii noștrii beneficiază de "
+        heading={<>Atributes <HighlightedText> qualitative</HighlightedText></>}
+        subheading= "What defines us"
+        description= "All of our partners benefit from "
         cards={[
         {imageSrc:ShieldIconImage,
-          title:"Siguranță",
-         description: "Asigurăm securitatea energetică a afacerii tale"},
+          title:"Safety",
+         description: "We ensure the energy security of your business"},
         {imageSrc: SupportIconImage,
         title: "24/7 Support" ,
-          description: "Suntem întotdeauna la dispoziția clientului"},
+          description: "We are always available to our partners"},
         {imageSrc: CustomizeIconImage,
           title: "Customizable", 
-          description: "Servicii personalizate neovilor companiei"},
+          description: "Services tailored to the needs of the company"},
         {imageSrc: FastIconImage,
-        title: "De încredere", 
-        description: "Dorim parteneriate pe termen lung alături de clienții noștri."},
+        title: "Trustworthy", 
+        description: "We want long-term partnerships with our partners"},
         {imageSrc: ReliableIconImage,
         title: "Fast", 
-        description: "Intervenții prompte și de calitate"},
+        description: "Prompt and quality interventions"},
         {imageSrc:SimpleIconImage,
         title: "Easy", 
-        description: "Comunicare eficientă și la standarde înalte"}
+        description: "Effective communication at high standards"}
         ]}
       />
       <MainFeature
-        subheading="Expertiza noastră"
-        heading={<>Facut de si pentru <HighlightedText>Profesioniști</HighlightedText></>}
-        description="Membrii echipei sunt specialisti atestati, autorizati de ME (Ministerul Energiei) si ANRE (Autoritatea Nationala de Reglementare In Domeniul Energiei) cu recunoastere interna si EUROPEANA"
+        subheading="Our expertise"
+        heading={<>Made by and for  <HighlightedText>Professionals</HighlightedText></>}
+        description="The team members are certified specialists, authorized by ME (Ministry of Energy) and ANRE (National Authority for Energy Regulation) with internal and EUROPEAN recognition"
         features={[{
           Icon: BriefcaseIcon,
-          title:"Profesionism",
-          description:"Printre cei mai buni profesionisti din tara",},
+          title:"professionalism",
+          description:"Among the best professionals in the country",},
           {
           Icon:MoneyIcon,
           title:"Affordable",
-          description:"Calitate la preturi accesibile"
+          description:"Quality at affordable prices"
           }]}
       />
-      {/* <Pricing 
-        subheading = "Prețuri adaptate in functie de cerinte si nevoi"
-        heading={<>Planuri <HighlightedText>Flexibile</HighlightedText></>}
-        description="*Prețurile sunt estimative"
-      /> */}
       <FAQ
-        heading={<>Aveti <HighlightedText>Intrebari ?</HighlightedText></>}
+      subheading = "Frequently Asked Questions"
+      // heading = "You have Questions ?"
+      description = "We got the answers to your questions"
+      heading={<>Got <HighlightedText>Questions?</HighlightedText></>}
+      faqs={[{question:"Legally, do I need energy management?", answer:"According to law 121/2014, economic operators are obliged to appoint an energy manager, certified by the Ministry of Energy or the National Regulatory Authority in the Field of Energy, within the term of validity of the attestation, according to the legislation in force, or to conclude an energy management contract with an individual certified by the Energy efficiency Directorate, who has the status of an authorized individual person, or with a legal entity providing energy services, certified under the law"}, 
+      {question:"Legally, do I need an energy audit?", answer:"According to law 121/2014, economic operators are obliged to conduct an energy audit every 4 years on an energy consumption contour established by the economic operator, representing at least 50% of the total energy consumption of the economic operator"},
+      {question:"Who can perform energy management and audit services?", answer:"Audit and management services can be performed ONLY by economic operators authorized and certified by the Ministry of Energy or the National Energy Regulatory Authority with specialized personnel, authorized and certified according to the legislation in force"},
+      {question:"Can I access non-reimbursable European funds without conducting a recent energy audit?", answer:"In the financing guides, it is a mandatory requirement to conduct an energy audit in order to be able to access non-reimbursable European funds"}]}
       />
       <Footer />
     </AnimationRevealPage>

@@ -35,7 +35,7 @@ export default () => {
       Home
     </NavLink>
     <NavLink href="/AboutUs">
-      Despre noi
+      About
     </NavLink>
     <NavLink href="/dashboard">
       Dashboard
@@ -58,16 +58,16 @@ export default () => {
         YourMessage="Your Message"
       />
       <ContactDetails
-      heading = "Brioul nostru"
-      subheading = "Alte date de contact"
-      description= "Ne poti gasi oricand la biroul nostru"
+      heading = "Our office"
+      subheading = "Other contact info"
+      description= "You can find us at our office"
         cards={[
           {
             title: "Târgoviște",
             description: (
               <>
                 <Address>
-                  <AddressLine>Str. Col Ion Nicolin, Nr. 4</AddressLine>
+                  <AddressLine>Street Col Ion Nicolin, No. 4</AddressLine>
                 </Address>
                 <Email>extronenergyvision@gmail.com</Email>
                 <Phone>+40 0737031807</Phone>

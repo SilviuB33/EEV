@@ -10,6 +10,22 @@ import Footer from "components/footers/Footer.js";
 import axios from "axios";
 import Cookies from 'js-cookie';
 import jwt_decode from "jwt-decode";
+import { NavLink, NavLinks, PrimaryLink as LogoLink, NavToggle, DesktopNavLinks } from "components/headers/light.js";
+
+
+const StyledHeader = styled(Header)`
+${tw`pt-8 max-w-none w-full`}
+${DesktopNavLinks} {
+  ${tw`text-white hover:border-blue-300 hover:text-white`}
+}
+$ ${NavLink}, ${LogoLink} {
+  ${tw`text-blue-800 hover:border-blue-300 hover:text-blue-800`}
+}
+${NavToggle}.closed {
+  ${tw`text-blue-800 hover:text-primary-700`}
+}
+`;
+const HeroContainer = tw.div`z-20 relative px-6 sm:px-8 mx-auto h-full flex flex-col`;
 
 const FormContainer = tw.div`w-full flex-1 mt-8`;
 const Form = tw.form`mx-auto max-w-xs`;
@@ -42,12 +58,19 @@ const EditServices = () => {
         getServiceById();
         refreshToken();
     }, []);
+
+    const navLinks = [
+      <NavLinks key={1}>
+        <NavLink href="/DashboardAdm">
+          Dashboard
+        </NavLink>
+      </NavLinks>,
+      <NavLinks key={2}>
+      </NavLinks>
+    ];
     
     const refreshToken = async () => {
       try {
-          // // const decoded = jwt_decode(response.data.accessToken);
-          // const token = Cookies.get("token");
-          // const decoded = jwt_decode(token);
           const token = Cookies.get("token");
           if (!token) {
             history.push("/");
@@ -58,7 +81,6 @@ const EditServices = () => {
               const response = await axios.get('http://localhost:5000/token');
               setToken(response.data.accessToken);
               Cookies.set("token", response.data.accessToken);
-              // decoded = jwt_decode(response.data.accessToken);
           setName(decoded.name);
           setCompany(decoded.company);
           setEmail(decoded.email);
@@ -91,12 +113,14 @@ const EditServices = () => {
         setPrice(response.data.price);
     }
 
-const submitButtonText = "Edit Item"
+    const submitButtonText = "Edit Item"
 
   return (
      
     <AnimationRevealPage>
-      <Header />
+      <HeroContainer links={navLinks}>
+        <StyledHeader links={navLinks} />
+        </HeroContainer>
       <MainContent>
       <Heading>Edit the item!</Heading>
       <FormContainer>
