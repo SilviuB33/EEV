@@ -4,8 +4,8 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import tw from "twin.macro";
 import styled from "styled-components"; //eslint-disable-line
 import Header from "components/headers/light.js";
-import Footer from "components/footers/SimpleFiveColumn.js";
-import Features from "components/features/ThreeColSimple.js";
+import Footer from "components/footers/Footer.js";
+import Features from "components/features/FeatureDashboard.js";
 // import Features from "components/features/ThreeColWithSideImage.js";
 import { NavLink, NavLinks, PrimaryLink as PrimaryLinkBase, LogoLink, NavToggle, DesktopNavLinks } from "components/headers/light.js";
 import { useHistory } from "react-router-dom";
@@ -32,6 +32,9 @@ const PrimaryLink = tw(PrimaryLinkBase)`rounded-full`;
 /* hocus: stands for "on hover or focus"
  * hocus:bg-primary-700 will apply the bg-primary-700 class on hover or focus
  */
+const Subheading = tw.span`uppercase tracking-wider text-sm`;
+const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
+const HeroContainer = tw.div`z-20 relative px-6 sm:px-8 mx-auto h-full flex flex-col`;
 
 const DashboardAdm = () => {
 
@@ -51,13 +54,7 @@ const DashboardAdm = () => {
   const [selectedUser, setSelectedUser] = useState('');
   const [selectedService, setSelectedService] = useState('');
 
-
   const history = useHistory();
-
-
-  const Subheading = tw.span`uppercase tracking-wider text-sm`;
-  const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
-  const HeroContainer = tw.div`z-20 relative px-6 sm:px-8 mx-auto h-full flex flex-col`;
 
   useEffect(() => {
     refreshToken();
@@ -249,9 +246,6 @@ const deleteMessagesLoggedIn = async (id) => {
       <NavLink href="/AboutUs">
         Despre noi
       </NavLink>
-      {/* <NavLink href="/Pricing">
-        Prețuri
-      </NavLink> */}
       <NavLink href="/AddServices">
         Add a new service
       </NavLink>
@@ -437,8 +431,8 @@ const deleteMessagesLoggedIn = async (id) => {
         heading="Clients and Services"
         // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     />
-    <select class="form-select" aria-label="Default select example" value={selectedUser} onChange={handleUserSelection}>
-    <option selected>Please select a client</option>
+    <select className="form-select" aria-label="Default select example" value={selectedUser} onChange={handleUserSelection}>
+    <option value>Please select a client</option>
     { userWithNameAndId.map((user, index) => (
       <option
     key = {user.id} value= {user.id}> {user.name} 
@@ -447,8 +441,8 @@ const deleteMessagesLoggedIn = async (id) => {
 </select>
 <br>
 </br>
-<select class="form-select" aria-label="Default select example" value={selectedService} onChange={handleServiceSelection}>
-<option selected>Please select a service</option>
+<select className="form-select" aria-label="Default select example" value={selectedService} onChange={handleServiceSelection}>
+<option value>Please select a service</option>
     { servicesWithNameAndId.map((service, index) => (
       <option
     key = {service.id} value= {service.id}> {service.title} 

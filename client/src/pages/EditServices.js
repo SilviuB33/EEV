@@ -6,26 +6,14 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import tw from "twin.macro";
 import styled from "styled-components"; //eslint-disable-line
 import Header from "components/headers/light.js";
-import Footer from "components/footers/SimpleFiveColumn.js";
-// import Form from "components/forms/SimpleContactUs";
-// import MainFeature2 from "components/features/TwoColSingleFeatureWithStats.js";
-// import MainFeature3 from "components/features/TwoColSingleFeatureWithStats2.js";
+import Footer from "components/footers/Footer.js";
 import axios from "axios";
-import { Container as ContainerBase } from "components/misc/Layouts";
 import Cookies from 'js-cookie';
 import jwt_decode from "jwt-decode";
-// import Form from "components\forms\TwoColContactUsWithIllustrationFullForm.js"
-// import Features from "components/features/ThreeColWithSideImage.js";
-// import ServiceList from "routes/ServiceList";
+
 const FormContainer = tw.div`w-full flex-1 mt-8`;
 const Form = tw.form`mx-auto max-w-xs`;
-const Subheading = tw.span`uppercase tracking-wider text-sm`;
 const Input = tw.input`w-full px-8 py-4 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white mt-5 first:mt-0`;
-const Container = tw(ContainerBase)`min-h-screen bg-primary-900 text-white font-medium flex justify-center -m-8`;
-const Content = tw.div`max-w-screen-xl m-0 sm:mx-20 sm:my-16 bg-white text-gray-900 shadow sm:rounded-lg flex justify-center flex-1`;
-const MainContainer = tw.div`lg:w-1/2 xl:w-5/12 p-6 sm:p-12`;
-const LogoLink = tw.a``;
-const LogoImage = tw.img`h-12 mx-auto`;
 const MainContent = tw.div`mt-12 flex flex-col items-center`;
 const Heading = tw.h1`text-2xl xl:text-3xl font-extrabold`;
 const SubmitButton = styled.button`

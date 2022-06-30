@@ -39,7 +39,7 @@ const IllustrationImage = styled.div`
 
 export default function (){
 
-  const logoLinkUrl = "#"
+  const logoLinkUrl = "/"
   const illustrationImageSrc = illustration
   const headingText = "Sign In"
 
@@ -47,39 +47,9 @@ export default function (){
   const SubmitButtonIcon = LoginIcon
   const signupUrl = "/SignUp"
 
-//   async function loginUser(event){
-//     event.preventDefault()
-
-//      const response = await fetch('http://localhost:1337/api/login',
-//     {
-//       method: 'POST',
-//       headers:{
-//         'Content-Type': 'application/json',
-//       },
-//       body: JSON.stringify({
-//         email,
-//         password,
-//       }),
-//     })
-
-//     const data = await response.json()
-
-//   console.log(data)
-
-//     if(data.user){
-//       localStorage.setItem('token', data.user)
-//       alert('Login successful!')
-//       window.location.href ='/dashboard'
-//     } else{
-//       alert('Please check your username and password!')
-//     }
-    
-//     console.log(data)
-// }
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [admin] = useState('');
-  // const [msg, setMsg] = useState('');
   const history = useHistory();
 
   const Auth = async (e) => {
@@ -99,7 +69,7 @@ export default function (){
           };
       } catch (error) {
           if (error.response) {
-              // setMsg(error.response.data.msg);
+            console.log(error.response);
           }
       }
   }
@@ -115,21 +85,7 @@ return (
           <MainContent>
             <Heading>{headingText}</Heading>
             <FormContainer>
-              {/* <SocialButtonsContainer>
-                {socialButtons.map((socialButton, index) => (
-                  <SocialButton key={index} href={socialButton.url}>
-                    <span className="iconContainer">
-                      <img src={socialButton.iconImageSrc} className="icon" alt=""/>
-                    </span>
-                    <span className="text">{socialButton.text}</span>
-                  </SocialButton>
-                ))}
-              </SocialButtonsContainer>
-              <DividerTextContainer>
-                <DividerText>Or Sign in with your e-mail</DividerText>
-              </DividerTextContainer> */}
               <Form onSubmit={Auth}>
-              {/* <p className="has-text-centered">{msg}</p> */}
                 <Input 
                 value={email}
                 type="email" 
@@ -145,11 +101,6 @@ return (
                   <span className="text">{submitButtonText}</span>
                 </SubmitButton>
               </Form>
-              {/* <p tw="mt-6 text-xs text-gray-600 text-center">
-                <a href={forgotPasswordUrl} tw="border-b border-gray-500 border-dotted">
-                  Forgot Password ?
-                </a>
-              </p> */}
               <p tw="mt-8 text-sm text-gray-600 text-center">
                 Dont have an account?{" "}
                 <a href={signupUrl} tw="border-b border-gray-500 border-dotted">

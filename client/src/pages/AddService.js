@@ -5,7 +5,7 @@ import tw from "twin.macro";
 import styled from "styled-components"; //eslint-disable-line
 import Header from "components/headers/light.js";
 import { NavLink, NavLinks, PrimaryLink as PrimaryLinkBase, LogoLink, NavToggle, DesktopNavLinks } from "components/headers/light.js";
-import Footer from "components/footers/SimpleFiveColumn.js";
+import Footer from "components/footers/Footer.js";
 // import Form from "components/forms/SimpleContactUs";
 // import MainFeature2 from "components/features/TwoColSingleFeatureWithStats.js";
 // import MainFeature3 from "components/features/TwoColSingleFeatureWithStats2.js";
@@ -49,18 +49,18 @@ const submitButtonText = "Add Item";
 const AddService = () => {
   const [title, setTitle] = useState('');
   const [price, setPrice] = useState('');
-  const [setName] = useState('');
-  const [setToken] = useState('');
+  const [name, setName] = useState('');
+  const [token, setToken] = useState('');
   const [expire, setExpire] = useState('');
-  const [setCompany] = useState('');
-  const [setEmail] = useState('');
-  const [setAdmin] = useState('');
+  const [company, setCompany] = useState('');
+  const [email, setEmail] = useState('');
+  const [admin, setAdmin] = useState('');
 
   const history = useHistory();
 
   useEffect(() => {
     refreshToken();
-}, []);
+},);
 
   const refreshToken = async () => {
     try {
@@ -78,7 +78,7 @@ const AddService = () => {
             setToken(response.data.accessToken);
             Cookies.set("token", response.data.accessToken);
             // decoded = jwt_decode(response.data.accessToken);
-          }
+          
         setName(decoded.name);
         setCompany(decoded.company);
         setEmail(decoded.email);
@@ -91,7 +91,8 @@ const AddService = () => {
           history.push("/")
         };
       }
-    } catch (error) {
+    }
+  } catch (error) {
         if (error.response) {
             history.push("/");
         }

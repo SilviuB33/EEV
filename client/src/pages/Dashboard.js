@@ -4,22 +4,16 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import tw from "twin.macro";
 import styled from "styled-components"; //eslint-disable-line
 import Header from "components/headers/light.js";
-import Footer from "components/footers/SimpleFiveColumn.js";
-// import Form from "components/forms/SimpleContactUs";
-// import MainFeature2 from "components/features/TwoColSingleFeatureWithStats.js";
-// import MainFeature3 from "components/features/TwoColSingleFeatureWithStats2.js";
-import Features from "components/features/ThreeColSimple.js";
+import Footer from "components/footers/Footer.js";
+import Features from "components/features/FeatureDashboard.js";
 import axios from "axios";
 import jwt_decode from "jwt-decode";
 import { useHistory, useParams } from "react-router-dom";
 import { NavLink, NavLinks, PrimaryLink as PrimaryLinkBase, LogoLink, NavToggle, DesktopNavLinks } from "components/headers/light.js";
 import Cookies from "js-cookie";
-// import DashboardAdm from "./DashboardAdm";
-// import Form from "components\forms\TwoColContactUsWithIllustrationFullForm.js"
-// import Features from "components/features/ThreeColWithSideImage.js";
+
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
-
 const FormContainer2 = styled.div`
   ${tw`p-10 sm:p-12 md:p-16 bg-primary-500 text-gray-100 rounded-lg relative`}
   form {
@@ -30,7 +24,6 @@ const FormContainer2 = styled.div`
   } */}
   input,textarea {
     ${tw`w-full bg-transparent text-gray-100 text-base font-medium tracking-wide border-b-2 py-2 text-gray-100 hocus:border-pink-400 focus:outline-none transition duration-200`};
-
     ::placeholder {
       ${tw`text-gray-500`}
     }
@@ -52,14 +45,12 @@ const SubmitButton = styled.button`;
     ${tw`ml-3`}
   }
 `;
-
 const TwoColumn = tw.div`flex flex-col sm:flex-row justify-between`;
 const Column = tw.div`sm:w-5/12 flex flex-col`;
 const InputContainer = tw.div`relative py-5 mt-6`;
 const Label = tw.label`absolute top-0 left-0 tracking-wide font-semibold text-sm`;
 const Input2 = tw.input``;
 const TextArea = tw.textarea`h-24 sm:h-full resize-none`;
-
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none w-full`}
   ${DesktopNavLinks} {
@@ -75,8 +66,6 @@ const StyledHeader = styled(Header)`
 `;
 const PrimaryLink = tw(PrimaryLinkBase)`rounded-full`
 
-
-
 const Dashboard = () => {
   const [name, setName] = useState('');
   const [company, setCompany] = useState('');
@@ -88,6 +77,9 @@ const Dashboard = () => {
   const [admin, setAdmin] = useState('');
   const [users, setUsers] = useState([]);
   const [service, setService] = useState('');
+  const [month, setMonth] = useState('');
+  const [consumption, setConsumption] = useState('');
+  const { id } = useParams();
   const history = useHistory();
 
   useEffect(() => {
@@ -99,7 +91,7 @@ const Dashboard = () => {
       try {
           const token = Cookies.get("token");
           if (!token) {
-            history.push("/");
+            history.push("/login");
             alert('You need to be logged in!');
           } else {
             const decoded = jwt_decode(token);
@@ -108,7 +100,7 @@ const Dashboard = () => {
               const response = await axios.get('http://localhost:5000/token');
               setToken(response.data.accessToken);
               Cookies.set("token", response.data.accessToken);
-              decoded = jwt_decode(response.data.accessToken);
+              // decoded = jwt_decode(response.data.accessToken);
             }
             setName(decoded.name);
             setCompany(decoded.company);
@@ -171,10 +163,6 @@ const saveMessage = async (e) => {
       });
       setUsers(response.data);
   }
-  const [month, setMonth] = useState('');
-  const [consumption, setConsumption] = useState('');
-  const { id } = useParams();
-
 
   const saveRaport = async (e) => {
       e.preventDefault();
@@ -189,14 +177,6 @@ const saveMessage = async (e) => {
       history.push("/dashboard");
   }
 
-  // const getRaportById = async () => {
-  //     const response = await axios.get(`http://localhost:5000/raports/${id}`);
-  //     setMonth(response.data.month);
-  //     setConsumption(response.data.consumption);
-  //     setName(response.data.user_name)
-  //     setCompany(response.data.user_company)
-  // }
-
 const submitButtonText = "Add Consumption"
 
   const navLinks = [
@@ -207,9 +187,6 @@ const submitButtonText = "Add Consumption"
       <NavLink href="/AboutUs">
         Despre noi
       </NavLink>
-      {/* <NavLink href="/Pricing">
-        Prețuri
-      </NavLink> */}
       <NavLink href="/ContactUs">
         Contactează-ne
       </NavLink>
@@ -305,10 +282,6 @@ return (
         </FormContainer2>
       </Content>
     </Container>
-      {/* <Cta
-      text="Your current plan is:"
-      textsecond={<textsecond>{service}</textsecond>}
-      />  */}
       <Footer />
     </AnimationRevealPage>
   );

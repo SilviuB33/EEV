@@ -3,19 +3,11 @@ import React from "react";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import tw from "twin.macro";
 import Header from "components/headers/light.js";
-import Footer from "components/footers/SimpleFiveColumn.js";
-import FAQ from "components/faqs/SimpleWithSideImage.js";
+import Footer from "components/footers/Footer.js";
+import FAQ from "components/faqs/FAQs2.js";
 import { NavLink, NavLinks, PrimaryLink as LogoLink, NavToggle, DesktopNavLinks } from "components/headers/light.js";
 import styled from "styled-components";
 
-const Address = tw.span`leading-relaxed`;
-const AddressLine = tw.span`block`;
-const Email = tw.span`text-sm mt-6 block text-gray-500`;
-const Phone = tw.span`text-sm mt-0 block text-gray-500`;
-
-export default () => {
-
-  const Subheading = tw.span`uppercase tracking-wider text-sm`;
 const StyledHeader = styled(Header)`
   ${tw`pt-8 max-w-none w-full`}
   ${DesktopNavLinks} {
@@ -30,6 +22,8 @@ const StyledHeader = styled(Header)`
 `;
 const HeroContainer = tw.div`z-20 relative px-6 sm:px-8 mx-auto h-full flex flex-col`;
 
+export default () => {
+
 const navLinks = [
   <NavLinks key={1}>
     <NavLink href="/">
@@ -38,14 +32,11 @@ const navLinks = [
     <NavLink href="/AboutUs">
       Despre noi
     </NavLink>
-    {/* <NavLink href="/Pricing">
-      Prețuri
-    </NavLink> */}
     <NavLink href="/ContactUs">
       Contactează-ne
     </NavLink>
-    <NavLink href="/faq">
-      FAQs
+    <NavLink href="/dashboard">
+      Dashboard
     </NavLink>
   </NavLinks>,
   <NavLinks key={2}>

@@ -2,9 +2,9 @@ import React from "react";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import tw from "twin.macro";
 import Header from "components/headers/light.js";
-import Footer from "components/footers/SimpleFiveColumn.js";
-import MainFeature1 from "components/features/TwoColWithButton.js";
-import Features from "components/features/ThreeColWithSideImage.js";
+import Footer from "components/footers/Footer.js";
+import MainFeature1 from "components/features/FeaturesButtons.js";
+import Features from "components/features/MainFeature2.js";
 import { NavLink, NavLinks, PrimaryLink as LogoLink, NavToggle, DesktopNavLinks } from "components/headers/light.js";
 import styled from "styled-components";
 import SupportIconImage from "images/support-icon.svg";
@@ -13,8 +13,6 @@ import CustomizeIconImage from "images/customize-icon.svg";
 import FastIconImage from "images/fast-icon.svg";
 import ReliableIconImage from "images/reliable-icon.svg";
 import SimpleIconImage from "images/simple-icon.svg";
-
-export default () => {
 
 const HighlightedText = tw.span`text-primary-500`
 const Subheading = tw.span`uppercase tracking-wider text-sm`;
@@ -32,19 +30,18 @@ const StyledHeader = styled(Header)`
 `;
 const HeroContainer = tw.div`z-20 relative px-6 sm:px-8 mx-auto h-full flex flex-col`;
 
+export default () => {
+
 const navLinks = [
   <NavLinks key={1}>
     <NavLink href="/">
       Home
     </NavLink>
-    <NavLink href="/AboutUs">
-      Despre noi
-    </NavLink>
-    {/* <NavLink href="/Pricing">
-      Prețuri
-    </NavLink> */}
     <NavLink href="/ContactUs">
       Contactează-ne
+    </NavLink>
+    <NavLink href="/dashboard">
+      Dashboard
     </NavLink>
     <NavLink href="/faq">
       FAQs
