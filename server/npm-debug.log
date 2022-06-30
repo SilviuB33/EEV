@@ -1,0 +1,2439 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 warn package.json server@1.0.0 No description
+6 warn package.json server@1.0.0 No repository field.
+7 warn package.json server@1.0.0 scripts['server'] should probably be scripts['start'].
+8 warn package.json server@1.0.0 No README data
+9 verbose install where, deps [ 'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server',
+9 verbose install   [ 'axios',
+9 verbose install     'bcrypt',
+9 verbose install     'bcryptjs',
+9 verbose install     'cookie-parser',
+9 verbose install     'cors',
+9 verbose install     'dotenv',
+9 verbose install     'express',
+9 verbose install     'jsonwebtoken',
+9 verbose install     'mongoose',
+9 verbose install     'mysql2',
+9 verbose install     'sequelize',
+9 verbose install     'nodemon' ] ]
+10 verbose install where, peers [ 'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server',
+10 verbose install   [] ]
+11 info preinstall server@1.0.0
+12 warn package.json buffer@5.7.1 buffer is also the name of a node core module.
+13 warn package.json punycode@2.1.1 punycode is also the name of a node core module.
+14 warn package.json string_decoder@1.3.0 string_decoder is also the name of a node core module.
+15 verbose already installed skipping bcryptjs@^2.4.3 C:\Users\Utilizator\Desktop\Project\Extron\server
+16 verbose already installed skipping cookie-parser@^1.4.6 C:\Users\Utilizator\Desktop\Project\Extron\server
+17 verbose already installed skipping cors@^2.8.5 C:\Users\Utilizator\Desktop\Project\Extron\server
+18 verbose already installed skipping dotenv@^16.0.1 C:\Users\Utilizator\Desktop\Project\Extron\server
+19 verbose already installed skipping express@^4.18.1 C:\Users\Utilizator\Desktop\Project\Extron\server
+20 verbose already installed skipping jsonwebtoken@^8.5.1 C:\Users\Utilizator\Desktop\Project\Extron\server
+21 verbose already installed skipping mongoose@^6.3.1 C:\Users\Utilizator\Desktop\Project\Extron\server
+22 verbose already installed skipping mysql2@^2.3.3 C:\Users\Utilizator\Desktop\Project\Extron\server
+23 verbose already installed skipping sequelize@^6.20.0 C:\Users\Utilizator\Desktop\Project\Extron\server
+24 verbose already installed skipping nodemon@^2.0.16 C:\Users\Utilizator\Desktop\Project\Extron\server
+25 verbose already installed skipping axios@^0.27.2 C:\Users\Utilizator\Desktop\Project\Extron\server
+26 verbose already installed skipping bcrypt@^5.0.1 C:\Users\Utilizator\Desktop\Project\Extron\server
+27 silly install resolved []
+28 info build C:\Users\Utilizator\Desktop\Project\Extron\server
+29 verbose linkStuff [ false,
+29 verbose linkStuff   false,
+29 verbose linkStuff   false,
+29 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron' ]
+30 info linkStuff server@1.0.0
+31 verbose linkBins server@1.0.0
+32 verbose linkMans server@1.0.0
+33 verbose rebuildBundles server@1.0.0
+34 verbose rebuildBundles [ '.bin',
+34 verbose rebuildBundles   '.package-lock.json',
+34 verbose rebuildBundles   '@mapbox',
+34 verbose rebuildBundles   '@sindresorhus',
+34 verbose rebuildBundles   '@szmarczak',
+34 verbose rebuildBundles   '@types',
+34 verbose rebuildBundles   'abbrev',
+34 verbose rebuildBundles   'accepts',
+34 verbose rebuildBundles   'agent-base',
+34 verbose rebuildBundles   'ansi-align',
+34 verbose rebuildBundles   'ansi-regex',
+34 verbose rebuildBundles   'ansi-styles',
+34 verbose rebuildBundles   'anymatch',
+34 verbose rebuildBundles   'aproba',
+34 verbose rebuildBundles   'are-we-there-yet',
+34 verbose rebuildBundles   'array-flatten',
+34 verbose rebuildBundles   'asynckit',
+34 verbose rebuildBundles   'axios',
+34 verbose rebuildBundles   'balanced-match',
+34 verbose rebuildBundles   'base64-js',
+34 verbose rebuildBundles   'bcrypt',
+34 verbose rebuildBundles   'bcryptjs',
+34 verbose rebuildBundles   'binary-extensions',
+34 verbose rebuildBundles   'body-parser',
+34 verbose rebuildBundles   'boxen',
+34 verbose rebuildBundles   'brace-expansion',
+34 verbose rebuildBundles   'braces',
+34 verbose rebuildBundles   'bson',
+34 verbose rebuildBundles   'buffer',
+34 verbose rebuildBundles   'buffer-equal-constant-time',
+34 verbose rebuildBundles   'bytes',
+34 verbose rebuildBundles   'cacheable-request',
+34 verbose rebuildBundles   'call-bind',
+34 verbose rebuildBundles   'camelcase',
+34 verbose rebuildBundles   'chalk',
+34 verbose rebuildBundles   'chokidar',
+34 verbose rebuildBundles   'chownr',
+34 verbose rebuildBundles   'ci-info',
+34 verbose rebuildBundles   'cli-boxes',
+34 verbose rebuildBundles   'clone-response',
+34 verbose rebuildBundles   'color-convert',
+34 verbose rebuildBundles   'color-name',
+34 verbose rebuildBundles   'color-support',
+34 verbose rebuildBundles   'combined-stream',
+34 verbose rebuildBundles   'concat-map',
+34 verbose rebuildBundles   'configstore',
+34 verbose rebuildBundles   'console-control-strings',
+34 verbose rebuildBundles   'content-disposition',
+34 verbose rebuildBundles   'content-type',
+34 verbose rebuildBundles   'cookie',
+34 verbose rebuildBundles   'cookie-parser',
+34 verbose rebuildBundles   'cookie-signature',
+34 verbose rebuildBundles   'cors',
+34 verbose rebuildBundles   'crypto-random-string',
+34 verbose rebuildBundles   'debug',
+34 verbose rebuildBundles   'decompress-response',
+34 verbose rebuildBundles   'deep-extend',
+34 verbose rebuildBundles   'defer-to-connect',
+34 verbose rebuildBundles   'delayed-stream',
+34 verbose rebuildBundles   'delegates',
+34 verbose rebuildBundles   'denque',
+34 verbose rebuildBundles   'depd',
+34 verbose rebuildBundles   'destroy',
+34 verbose rebuildBundles   'detect-libc',
+34 verbose rebuildBundles   'dot-prop',
+34 verbose rebuildBundles   'dotenv',
+34 verbose rebuildBundles   'dottie',
+34 verbose rebuildBundles   'duplexer3',
+34 verbose rebuildBundles   'ecdsa-sig-formatter',
+34 verbose rebuildBundles   'ee-first',
+34 verbose rebuildBundles   'emoji-regex',
+34 verbose rebuildBundles   'encodeurl',
+34 verbose rebuildBundles   'end-of-stream',
+34 verbose rebuildBundles   'escape-goat',
+34 verbose rebuildBundles   'escape-html',
+34 verbose rebuildBundles   'etag',
+34 verbose rebuildBundles   'express',
+34 verbose rebuildBundles   'fill-range',
+34 verbose rebuildBundles   'finalhandler',
+34 verbose rebuildBundles   'follow-redirects',
+34 verbose rebuildBundles   'form-data',
+34 verbose rebuildBundles   'forwarded',
+34 verbose rebuildBundles   'fresh',
+34 verbose rebuildBundles   'fs-minipass',
+34 verbose rebuildBundles   'fs.realpath',
+34 verbose rebuildBundles   'function-bind',
+34 verbose rebuildBundles   'gauge',
+34 verbose rebuildBundles   'generate-function',
+34 verbose rebuildBundles   'get-intrinsic',
+34 verbose rebuildBundles   'get-stream',
+34 verbose rebuildBundles   'glob',
+34 verbose rebuildBundles   'glob-parent',
+34 verbose rebuildBundles   'global-dirs',
+34 verbose rebuildBundles   'got',
+34 verbose rebuildBundles   'graceful-fs',
+34 verbose rebuildBundles   'has',
+34 verbose rebuildBundles   'has-flag',
+34 verbose rebuildBundles   'has-symbols',
+34 verbose rebuildBundles   'has-unicode',
+34 verbose rebuildBundles   'has-yarn',
+34 verbose rebuildBundles   'http-cache-semantics',
+34 verbose rebuildBundles   'http-errors',
+34 verbose rebuildBundles   'https-proxy-agent',
+34 verbose rebuildBundles   'iconv-lite',
+34 verbose rebuildBundles   'ieee754',
+34 verbose rebuildBundles   'ignore-by-default',
+34 verbose rebuildBundles   'import-lazy',
+34 verbose rebuildBundles   'imurmurhash',
+34 verbose rebuildBundles   'inflection',
+34 verbose rebuildBundles   'inflight',
+34 verbose rebuildBundles   'inherits',
+34 verbose rebuildBundles   'ini',
+34 verbose rebuildBundles   'ip',
+34 verbose rebuildBundles   'ipaddr.js',
+34 verbose rebuildBundles   'is-binary-path',
+34 verbose rebuildBundles   'is-ci',
+34 verbose rebuildBundles   'is-extglob',
+34 verbose rebuildBundles   'is-fullwidth-code-point',
+34 verbose rebuildBundles   'is-glob',
+34 verbose rebuildBundles   'is-installed-globally',
+34 verbose rebuildBundles   'is-npm',
+34 verbose rebuildBundles   'is-number',
+34 verbose rebuildBundles   'is-obj',
+34 verbose rebuildBundles   'is-path-inside',
+34 verbose rebuildBundles   'is-property',
+34 verbose rebuildBundles   'is-typedarray',
+34 verbose rebuildBundles   'is-yarn-global',
+34 verbose rebuildBundles   'json-buffer',
+34 verbose rebuildBundles   'jsonwebtoken',
+34 verbose rebuildBundles   'jwa',
+34 verbose rebuildBundles   'jws',
+34 verbose rebuildBundles   'kareem',
+34 verbose rebuildBundles   'keyv',
+34 verbose rebuildBundles   'latest-version',
+34 verbose rebuildBundles   'lodash',
+34 verbose rebuildBundles   'lodash.includes',
+34 verbose rebuildBundles   'lodash.isboolean',
+34 verbose rebuildBundles   'lodash.isinteger',
+34 verbose rebuildBundles   'lodash.isnumber',
+34 verbose rebuildBundles   'lodash.isplainobject',
+34 verbose rebuildBundles   'lodash.isstring',
+34 verbose rebuildBundles   'lodash.once',
+34 verbose rebuildBundles   'long',
+34 verbose rebuildBundles   'lowercase-keys',
+34 verbose rebuildBundles   'lru-cache',
+34 verbose rebuildBundles   'make-dir',
+34 verbose rebuildBundles   'media-typer',
+34 verbose rebuildBundles   'memory-pager',
+34 verbose rebuildBundles   'merge-descriptors',
+34 verbose rebuildBundles   'methods',
+34 verbose rebuildBundles   'mime',
+34 verbose rebuildBundles   'mime-db',
+34 verbose rebuildBundles   'mime-types',
+34 verbose rebuildBundles   'mimic-response',
+34 verbose rebuildBundles   'minimatch',
+34 verbose rebuildBundles   'minimist',
+34 verbose rebuildBundles   'minipass',
+34 verbose rebuildBundles   'minizlib',
+34 verbose rebuildBundles   'mkdirp',
+34 verbose rebuildBundles   'moment',
+34 verbose rebuildBundles   'moment-timezone',
+34 verbose rebuildBundles   'mongodb',
+34 verbose rebuildBundles   'mongodb-connection-string-url',
+34 verbose rebuildBundles   'mongoose',
+34 verbose rebuildBundles   'mpath',
+34 verbose rebuildBundles   'mquery',
+34 verbose rebuildBundles   'ms',
+34 verbose rebuildBundles   'mysql2',
+34 verbose rebuildBundles   'named-placeholders',
+34 verbose rebuildBundles   'negotiator',
+34 verbose rebuildBundles   'node-addon-api',
+34 verbose rebuildBundles   'node-fetch',
+34 verbose rebuildBundles   'nodemon',
+34 verbose rebuildBundles   'nopt',
+34 verbose rebuildBundles   'normalize-path',
+34 verbose rebuildBundles   'normalize-url',
+34 verbose rebuildBundles   'npmlog',
+34 verbose rebuildBundles   'object-assign',
+34 verbose rebuildBundles   'object-inspect',
+34 verbose rebuildBundles   'on-finished',
+34 verbose rebuildBundles   'once',
+34 verbose rebuildBundles   'p-cancelable',
+34 verbose rebuildBundles   'package-json',
+34 verbose rebuildBundles   'parseurl',
+34 verbose rebuildBundles   'path-is-absolute',
+34 verbose rebuildBundles   'path-to-regexp',
+34 verbose rebuildBundles   'pg-connection-string',
+34 verbose rebuildBundles   'picomatch',
+34 verbose rebuildBundles   'prepend-http',
+34 verbose rebuildBundles   'proxy-addr',
+34 verbose rebuildBundles   'pseudomap',
+34 verbose rebuildBundles   'pstree.remy',
+34 verbose rebuildBundles   'pump',
+34 verbose rebuildBundles   'punycode',
+34 verbose rebuildBundles   'pupa',
+34 verbose rebuildBundles   'qs',
+34 verbose rebuildBundles   'range-parser',
+34 verbose rebuildBundles   'raw-body',
+34 verbose rebuildBundles   'rc',
+34 verbose rebuildBundles   'readable-stream',
+34 verbose rebuildBundles   'readdirp',
+34 verbose rebuildBundles   'registry-auth-token',
+34 verbose rebuildBundles   'registry-url',
+34 verbose rebuildBundles   'responselike',
+34 verbose rebuildBundles   'retry-as-promised',
+34 verbose rebuildBundles   'rimraf',
+34 verbose rebuildBundles   'safe-buffer',
+34 verbose rebuildBundles   'safer-buffer',
+34 verbose rebuildBundles   'saslprep',
+34 verbose rebuildBundles   'semver',
+34 verbose rebuildBundles   'semver-diff',
+34 verbose rebuildBundles   'send',
+34 verbose rebuildBundles   'seq-queue',
+34 verbose rebuildBundles   'sequelize',
+34 verbose rebuildBundles   'sequelize-pool',
+34 verbose rebuildBundles   'serve-static',
+34 verbose rebuildBundles   'set-blocking',
+34 verbose rebuildBundles   'setprototypeof',
+34 verbose rebuildBundles   'side-channel',
+34 verbose rebuildBundles   'sift',
+34 verbose rebuildBundles   'signal-exit',
+34 verbose rebuildBundles   'smart-buffer',
+34 verbose rebuildBundles   'socks',
+34 verbose rebuildBundles   'sparse-bitfield',
+34 verbose rebuildBundles   'sqlstring',
+34 verbose rebuildBundles   'statuses',
+34 verbose rebuildBundles   'string-width',
+34 verbose rebuildBundles   'string_decoder',
+34 verbose rebuildBundles   'strip-ansi',
+34 verbose rebuildBundles   'strip-json-comments',
+34 verbose rebuildBundles   'supports-color',
+34 verbose rebuildBundles   'tar',
+34 verbose rebuildBundles   'to-readable-stream',
+34 verbose rebuildBundles   'to-regex-range',
+34 verbose rebuildBundles   'toidentifier',
+34 verbose rebuildBundles   'toposort-class',
+34 verbose rebuildBundles   'touch',
+34 verbose rebuildBundles   'tr46',
+34 verbose rebuildBundles   'type-fest',
+34 verbose rebuildBundles   'type-is',
+34 verbose rebuildBundles   'typedarray-to-buffer',
+34 verbose rebuildBundles   'undefsafe',
+34 verbose rebuildBundles   'unique-string',
+34 verbose rebuildBundles   'unpipe',
+34 verbose rebuildBundles   'update-notifier',
+34 verbose rebuildBundles   'url-parse-lax',
+34 verbose rebuildBundles   'util-deprecate',
+34 verbose rebuildBundles   'utils-merge',
+34 verbose rebuildBundles   'uuid',
+34 verbose rebuildBundles   'validator',
+34 verbose rebuildBundles   'vary',
+34 verbose rebuildBundles   'webidl-conversions',
+34 verbose rebuildBundles   'whatwg-url',
+34 verbose rebuildBundles   'wide-align',
+34 verbose rebuildBundles   'widest-line',
+34 verbose rebuildBundles   'wkx',
+34 verbose rebuildBundles   'wrap-ansi',
+34 verbose rebuildBundles   'wrappy',
+34 verbose rebuildBundles   'write-file-atomic',
+34 verbose rebuildBundles   'xdg-basedir',
+34 verbose rebuildBundles   'yallist' ]
+35 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\abbrev
+36 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\abbrev
+37 info preinstall abbrev@1.1.1
+38 verbose linkStuff [ false,
+38 verbose linkStuff   false,
+38 verbose linkStuff   false,
+38 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+39 info linkStuff abbrev@1.1.1
+40 verbose linkBins abbrev@1.1.1
+41 verbose linkMans abbrev@1.1.1
+42 verbose rebuildBundles abbrev@1.1.1
+43 info install abbrev@1.1.1
+44 info postinstall abbrev@1.1.1
+45 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\accepts
+46 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\accepts
+47 info preinstall accepts@1.3.8
+48 verbose linkStuff [ false,
+48 verbose linkStuff   false,
+48 verbose linkStuff   false,
+48 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+49 info linkStuff accepts@1.3.8
+50 verbose linkBins accepts@1.3.8
+51 verbose linkMans accepts@1.3.8
+52 verbose rebuildBundles accepts@1.3.8
+53 info install accepts@1.3.8
+54 info postinstall accepts@1.3.8
+55 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\agent-base
+56 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\agent-base
+57 info preinstall agent-base@6.0.2
+58 verbose linkStuff [ false,
+58 verbose linkStuff   false,
+58 verbose linkStuff   false,
+58 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+59 info linkStuff agent-base@6.0.2
+60 verbose linkBins agent-base@6.0.2
+61 verbose linkMans agent-base@6.0.2
+62 verbose rebuildBundles agent-base@6.0.2
+63 verbose rebuildBundles [ 'debug', 'ms' ]
+64 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\agent-base\node_modules\ms
+65 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\agent-base\node_modules\ms
+66 info preinstall ms@2.1.2
+67 verbose linkStuff [ false,
+67 verbose linkStuff   false,
+67 verbose linkStuff   false,
+67 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules\\agent-base\\node_modules' ]
+68 info linkStuff ms@2.1.2
+69 verbose linkBins ms@2.1.2
+70 verbose linkMans ms@2.1.2
+71 verbose rebuildBundles ms@2.1.2
+72 info install ms@2.1.2
+73 info postinstall ms@2.1.2
+74 info install agent-base@6.0.2
+75 info postinstall agent-base@6.0.2
+76 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ansi-align
+77 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ansi-align
+78 info preinstall ansi-align@3.0.1
+79 verbose linkStuff [ false,
+79 verbose linkStuff   false,
+79 verbose linkStuff   false,
+79 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+80 info linkStuff ansi-align@3.0.1
+81 verbose linkBins ansi-align@3.0.1
+82 verbose linkMans ansi-align@3.0.1
+83 verbose rebuildBundles ansi-align@3.0.1
+84 info install ansi-align@3.0.1
+85 info postinstall ansi-align@3.0.1
+86 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ansi-regex
+87 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ansi-regex
+88 info preinstall ansi-regex@5.0.1
+89 verbose linkStuff [ false,
+89 verbose linkStuff   false,
+89 verbose linkStuff   false,
+89 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+90 info linkStuff ansi-regex@5.0.1
+91 verbose linkBins ansi-regex@5.0.1
+92 verbose linkMans ansi-regex@5.0.1
+93 verbose rebuildBundles ansi-regex@5.0.1
+94 info install ansi-regex@5.0.1
+95 info postinstall ansi-regex@5.0.1
+96 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ansi-styles
+97 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ansi-styles
+98 info preinstall ansi-styles@4.3.0
+99 verbose linkStuff [ false,
+99 verbose linkStuff   false,
+99 verbose linkStuff   false,
+99 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+100 info linkStuff ansi-styles@4.3.0
+101 verbose linkBins ansi-styles@4.3.0
+102 verbose linkMans ansi-styles@4.3.0
+103 verbose rebuildBundles ansi-styles@4.3.0
+104 info install ansi-styles@4.3.0
+105 info postinstall ansi-styles@4.3.0
+106 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\anymatch
+107 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\anymatch
+108 info preinstall anymatch@3.1.2
+109 verbose linkStuff [ false,
+109 verbose linkStuff   false,
+109 verbose linkStuff   false,
+109 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+110 info linkStuff anymatch@3.1.2
+111 verbose linkBins anymatch@3.1.2
+112 verbose linkMans anymatch@3.1.2
+113 verbose rebuildBundles anymatch@3.1.2
+114 info install anymatch@3.1.2
+115 info postinstall anymatch@3.1.2
+116 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\aproba
+117 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\aproba
+118 info preinstall aproba@2.0.0
+119 verbose linkStuff [ false,
+119 verbose linkStuff   false,
+119 verbose linkStuff   false,
+119 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+120 info linkStuff aproba@2.0.0
+121 verbose linkBins aproba@2.0.0
+122 verbose linkMans aproba@2.0.0
+123 verbose rebuildBundles aproba@2.0.0
+124 info install aproba@2.0.0
+125 info postinstall aproba@2.0.0
+126 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\are-we-there-yet
+127 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\are-we-there-yet
+128 info preinstall are-we-there-yet@2.0.0
+129 verbose linkStuff [ false,
+129 verbose linkStuff   false,
+129 verbose linkStuff   false,
+129 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+130 info linkStuff are-we-there-yet@2.0.0
+131 verbose linkBins are-we-there-yet@2.0.0
+132 verbose linkMans are-we-there-yet@2.0.0
+133 verbose rebuildBundles are-we-there-yet@2.0.0
+134 info install are-we-there-yet@2.0.0
+135 info postinstall are-we-there-yet@2.0.0
+136 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\array-flatten
+137 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\array-flatten
+138 info preinstall array-flatten@1.1.1
+139 verbose linkStuff [ false,
+139 verbose linkStuff   false,
+139 verbose linkStuff   false,
+139 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+140 info linkStuff array-flatten@1.1.1
+141 verbose linkBins array-flatten@1.1.1
+142 verbose linkMans array-flatten@1.1.1
+143 verbose rebuildBundles array-flatten@1.1.1
+144 info install array-flatten@1.1.1
+145 info postinstall array-flatten@1.1.1
+146 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\asynckit
+147 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\asynckit
+148 info preinstall asynckit@0.4.0
+149 verbose linkStuff [ false,
+149 verbose linkStuff   false,
+149 verbose linkStuff   false,
+149 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+150 info linkStuff asynckit@0.4.0
+151 verbose linkBins asynckit@0.4.0
+152 verbose linkMans asynckit@0.4.0
+153 verbose rebuildBundles asynckit@0.4.0
+154 info install asynckit@0.4.0
+155 info postinstall asynckit@0.4.0
+156 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\balanced-match
+157 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\balanced-match
+158 info preinstall balanced-match@1.0.2
+159 verbose linkStuff [ false,
+159 verbose linkStuff   false,
+159 verbose linkStuff   false,
+159 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+160 info linkStuff balanced-match@1.0.2
+161 verbose linkBins balanced-match@1.0.2
+162 verbose linkMans balanced-match@1.0.2
+163 verbose rebuildBundles balanced-match@1.0.2
+164 info install balanced-match@1.0.2
+165 info postinstall balanced-match@1.0.2
+166 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\base64-js
+167 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\base64-js
+168 info preinstall base64-js@1.5.1
+169 verbose linkStuff [ false,
+169 verbose linkStuff   false,
+169 verbose linkStuff   false,
+169 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+170 info linkStuff base64-js@1.5.1
+171 verbose linkBins base64-js@1.5.1
+172 verbose linkMans base64-js@1.5.1
+173 verbose rebuildBundles base64-js@1.5.1
+174 info install base64-js@1.5.1
+175 info postinstall base64-js@1.5.1
+176 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\binary-extensions
+177 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\binary-extensions
+178 info preinstall binary-extensions@2.2.0
+179 verbose linkStuff [ false,
+179 verbose linkStuff   false,
+179 verbose linkStuff   false,
+179 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+180 info linkStuff binary-extensions@2.2.0
+181 verbose linkBins binary-extensions@2.2.0
+182 verbose linkMans binary-extensions@2.2.0
+183 verbose rebuildBundles binary-extensions@2.2.0
+184 info install binary-extensions@2.2.0
+185 info postinstall binary-extensions@2.2.0
+186 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\body-parser
+187 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\body-parser
+188 info preinstall body-parser@1.20.0
+189 verbose linkStuff [ false,
+189 verbose linkStuff   false,
+189 verbose linkStuff   false,
+189 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+190 info linkStuff body-parser@1.20.0
+191 verbose linkBins body-parser@1.20.0
+192 verbose linkMans body-parser@1.20.0
+193 verbose rebuildBundles body-parser@1.20.0
+194 info install body-parser@1.20.0
+195 info postinstall body-parser@1.20.0
+196 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\boxen
+197 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\boxen
+198 info preinstall boxen@5.1.2
+199 verbose linkStuff [ false,
+199 verbose linkStuff   false,
+199 verbose linkStuff   false,
+199 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+200 info linkStuff boxen@5.1.2
+201 verbose linkBins boxen@5.1.2
+202 verbose linkMans boxen@5.1.2
+203 verbose rebuildBundles boxen@5.1.2
+204 info install boxen@5.1.2
+205 info postinstall boxen@5.1.2
+206 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\brace-expansion
+207 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\brace-expansion
+208 info preinstall brace-expansion@1.1.11
+209 verbose linkStuff [ false,
+209 verbose linkStuff   false,
+209 verbose linkStuff   false,
+209 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+210 info linkStuff brace-expansion@1.1.11
+211 verbose linkBins brace-expansion@1.1.11
+212 verbose linkMans brace-expansion@1.1.11
+213 verbose rebuildBundles brace-expansion@1.1.11
+214 info install brace-expansion@1.1.11
+215 info postinstall brace-expansion@1.1.11
+216 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\braces
+217 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\braces
+218 info preinstall braces@3.0.2
+219 verbose linkStuff [ false,
+219 verbose linkStuff   false,
+219 verbose linkStuff   false,
+219 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+220 info linkStuff braces@3.0.2
+221 verbose linkBins braces@3.0.2
+222 verbose linkMans braces@3.0.2
+223 verbose rebuildBundles braces@3.0.2
+224 info install braces@3.0.2
+225 info postinstall braces@3.0.2
+226 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\bson
+227 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\bson
+228 info preinstall bson@4.6.3
+229 verbose linkStuff [ false,
+229 verbose linkStuff   false,
+229 verbose linkStuff   false,
+229 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+230 info linkStuff bson@4.6.3
+231 verbose linkBins bson@4.6.3
+232 verbose linkMans bson@4.6.3
+233 verbose rebuildBundles bson@4.6.3
+234 info install bson@4.6.3
+235 info postinstall bson@4.6.3
+236 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\buffer
+237 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\buffer
+238 info preinstall buffer@5.7.1
+239 verbose linkStuff [ false,
+239 verbose linkStuff   false,
+239 verbose linkStuff   false,
+239 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+240 info linkStuff buffer@5.7.1
+241 verbose linkBins buffer@5.7.1
+242 verbose linkMans buffer@5.7.1
+243 verbose rebuildBundles buffer@5.7.1
+244 info install buffer@5.7.1
+245 info postinstall buffer@5.7.1
+246 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\buffer-equal-constant-time
+247 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\buffer-equal-constant-time
+248 info preinstall buffer-equal-constant-time@1.0.1
+249 verbose linkStuff [ false,
+249 verbose linkStuff   false,
+249 verbose linkStuff   false,
+249 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+250 info linkStuff buffer-equal-constant-time@1.0.1
+251 verbose linkBins buffer-equal-constant-time@1.0.1
+252 verbose linkMans buffer-equal-constant-time@1.0.1
+253 verbose rebuildBundles buffer-equal-constant-time@1.0.1
+254 info install buffer-equal-constant-time@1.0.1
+255 info postinstall buffer-equal-constant-time@1.0.1
+256 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\bytes
+257 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\bytes
+258 info preinstall bytes@3.1.2
+259 verbose linkStuff [ false,
+259 verbose linkStuff   false,
+259 verbose linkStuff   false,
+259 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+260 info linkStuff bytes@3.1.2
+261 verbose linkBins bytes@3.1.2
+262 verbose linkMans bytes@3.1.2
+263 verbose rebuildBundles bytes@3.1.2
+264 info install bytes@3.1.2
+265 info postinstall bytes@3.1.2
+266 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\cacheable-request
+267 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\cacheable-request
+268 info preinstall cacheable-request@6.1.0
+269 verbose linkStuff [ false,
+269 verbose linkStuff   false,
+269 verbose linkStuff   false,
+269 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+270 info linkStuff cacheable-request@6.1.0
+271 verbose linkBins cacheable-request@6.1.0
+272 verbose linkMans cacheable-request@6.1.0
+273 verbose rebuildBundles cacheable-request@6.1.0
+274 verbose rebuildBundles [ 'get-stream', 'lowercase-keys' ]
+275 info install cacheable-request@6.1.0
+276 info postinstall cacheable-request@6.1.0
+277 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\call-bind
+278 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\call-bind
+279 info preinstall call-bind@1.0.2
+280 verbose linkStuff [ false,
+280 verbose linkStuff   false,
+280 verbose linkStuff   false,
+280 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+281 info linkStuff call-bind@1.0.2
+282 verbose linkBins call-bind@1.0.2
+283 verbose linkMans call-bind@1.0.2
+284 verbose rebuildBundles call-bind@1.0.2
+285 info install call-bind@1.0.2
+286 info postinstall call-bind@1.0.2
+287 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\camelcase
+288 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\camelcase
+289 info preinstall camelcase@6.3.0
+290 verbose linkStuff [ false,
+290 verbose linkStuff   false,
+290 verbose linkStuff   false,
+290 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+291 info linkStuff camelcase@6.3.0
+292 verbose linkBins camelcase@6.3.0
+293 verbose linkMans camelcase@6.3.0
+294 verbose rebuildBundles camelcase@6.3.0
+295 info install camelcase@6.3.0
+296 info postinstall camelcase@6.3.0
+297 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\chalk
+298 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\chalk
+299 info preinstall chalk@4.1.2
+300 verbose linkStuff [ false,
+300 verbose linkStuff   false,
+300 verbose linkStuff   false,
+300 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+301 info linkStuff chalk@4.1.2
+302 verbose linkBins chalk@4.1.2
+303 verbose linkMans chalk@4.1.2
+304 verbose rebuildBundles chalk@4.1.2
+305 verbose rebuildBundles [ 'has-flag', 'supports-color' ]
+306 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\chalk\node_modules\has-flag
+307 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\chalk\node_modules\has-flag
+308 info preinstall has-flag@4.0.0
+309 verbose linkStuff [ false,
+309 verbose linkStuff   false,
+309 verbose linkStuff   false,
+309 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules\\chalk\\node_modules' ]
+310 info linkStuff has-flag@4.0.0
+311 verbose linkBins has-flag@4.0.0
+312 verbose linkMans has-flag@4.0.0
+313 verbose rebuildBundles has-flag@4.0.0
+314 info install has-flag@4.0.0
+315 info postinstall has-flag@4.0.0
+316 info install chalk@4.1.2
+317 info postinstall chalk@4.1.2
+318 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\chokidar
+319 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\chokidar
+320 info preinstall chokidar@3.5.3
+321 verbose linkStuff [ false,
+321 verbose linkStuff   false,
+321 verbose linkStuff   false,
+321 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+322 info linkStuff chokidar@3.5.3
+323 verbose linkBins chokidar@3.5.3
+324 verbose linkMans chokidar@3.5.3
+325 verbose rebuildBundles chokidar@3.5.3
+326 info install chokidar@3.5.3
+327 info postinstall chokidar@3.5.3
+328 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\chownr
+329 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\chownr
+330 info preinstall chownr@2.0.0
+331 verbose linkStuff [ false,
+331 verbose linkStuff   false,
+331 verbose linkStuff   false,
+331 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+332 info linkStuff chownr@2.0.0
+333 verbose linkBins chownr@2.0.0
+334 verbose linkMans chownr@2.0.0
+335 verbose rebuildBundles chownr@2.0.0
+336 info install chownr@2.0.0
+337 info postinstall chownr@2.0.0
+338 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ci-info
+339 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ci-info
+340 info preinstall ci-info@2.0.0
+341 verbose linkStuff [ false,
+341 verbose linkStuff   false,
+341 verbose linkStuff   false,
+341 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+342 info linkStuff ci-info@2.0.0
+343 verbose linkBins ci-info@2.0.0
+344 verbose linkMans ci-info@2.0.0
+345 verbose rebuildBundles ci-info@2.0.0
+346 info install ci-info@2.0.0
+347 info postinstall ci-info@2.0.0
+348 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\cli-boxes
+349 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\cli-boxes
+350 info preinstall cli-boxes@2.2.1
+351 verbose linkStuff [ false,
+351 verbose linkStuff   false,
+351 verbose linkStuff   false,
+351 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+352 info linkStuff cli-boxes@2.2.1
+353 verbose linkBins cli-boxes@2.2.1
+354 verbose linkMans cli-boxes@2.2.1
+355 verbose rebuildBundles cli-boxes@2.2.1
+356 info install cli-boxes@2.2.1
+357 info postinstall cli-boxes@2.2.1
+358 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\clone-response
+359 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\clone-response
+360 info preinstall clone-response@1.0.2
+361 verbose linkStuff [ false,
+361 verbose linkStuff   false,
+361 verbose linkStuff   false,
+361 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+362 info linkStuff clone-response@1.0.2
+363 verbose linkBins clone-response@1.0.2
+364 verbose linkMans clone-response@1.0.2
+365 verbose rebuildBundles clone-response@1.0.2
+366 info install clone-response@1.0.2
+367 info postinstall clone-response@1.0.2
+368 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\color-convert
+369 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\color-convert
+370 info preinstall color-convert@2.0.1
+371 verbose linkStuff [ false,
+371 verbose linkStuff   false,
+371 verbose linkStuff   false,
+371 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+372 info linkStuff color-convert@2.0.1
+373 verbose linkBins color-convert@2.0.1
+374 verbose linkMans color-convert@2.0.1
+375 verbose rebuildBundles color-convert@2.0.1
+376 info install color-convert@2.0.1
+377 info postinstall color-convert@2.0.1
+378 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\color-name
+379 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\color-name
+380 info preinstall color-name@1.1.4
+381 verbose linkStuff [ false,
+381 verbose linkStuff   false,
+381 verbose linkStuff   false,
+381 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+382 info linkStuff color-name@1.1.4
+383 verbose linkBins color-name@1.1.4
+384 verbose linkMans color-name@1.1.4
+385 verbose rebuildBundles color-name@1.1.4
+386 info install color-name@1.1.4
+387 info postinstall color-name@1.1.4
+388 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\color-support
+389 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\color-support
+390 info preinstall color-support@1.1.3
+391 verbose linkStuff [ false,
+391 verbose linkStuff   false,
+391 verbose linkStuff   false,
+391 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+392 info linkStuff color-support@1.1.3
+393 verbose linkBins color-support@1.1.3
+394 verbose link bins [ { 'color-support': 'bin.js' },
+394 verbose link bins   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules\\.bin',
+394 verbose link bins   false ]
+395 verbose linkMans color-support@1.1.3
+396 verbose rebuildBundles color-support@1.1.3
+397 info install color-support@1.1.3
+398 info postinstall color-support@1.1.3
+399 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\combined-stream
+400 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\combined-stream
+401 info preinstall combined-stream@1.0.8
+402 verbose linkStuff [ false,
+402 verbose linkStuff   false,
+402 verbose linkStuff   false,
+402 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+403 info linkStuff combined-stream@1.0.8
+404 verbose linkBins combined-stream@1.0.8
+405 verbose linkMans combined-stream@1.0.8
+406 verbose rebuildBundles combined-stream@1.0.8
+407 info install combined-stream@1.0.8
+408 info postinstall combined-stream@1.0.8
+409 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\concat-map
+410 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\concat-map
+411 info preinstall concat-map@0.0.1
+412 verbose linkStuff [ false,
+412 verbose linkStuff   false,
+412 verbose linkStuff   false,
+412 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+413 info linkStuff concat-map@0.0.1
+414 verbose linkBins concat-map@0.0.1
+415 verbose linkMans concat-map@0.0.1
+416 verbose rebuildBundles concat-map@0.0.1
+417 info install concat-map@0.0.1
+418 info postinstall concat-map@0.0.1
+419 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\configstore
+420 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\configstore
+421 info preinstall configstore@5.0.1
+422 verbose linkStuff [ false,
+422 verbose linkStuff   false,
+422 verbose linkStuff   false,
+422 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+423 info linkStuff configstore@5.0.1
+424 verbose linkBins configstore@5.0.1
+425 verbose linkMans configstore@5.0.1
+426 verbose rebuildBundles configstore@5.0.1
+427 info install configstore@5.0.1
+428 info postinstall configstore@5.0.1
+429 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\console-control-strings
+430 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\console-control-strings
+431 info preinstall console-control-strings@1.1.0
+432 verbose linkStuff [ false,
+432 verbose linkStuff   false,
+432 verbose linkStuff   false,
+432 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+433 info linkStuff console-control-strings@1.1.0
+434 verbose linkBins console-control-strings@1.1.0
+435 verbose linkMans console-control-strings@1.1.0
+436 verbose rebuildBundles console-control-strings@1.1.0
+437 info install console-control-strings@1.1.0
+438 info postinstall console-control-strings@1.1.0
+439 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\content-disposition
+440 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\content-disposition
+441 info preinstall content-disposition@0.5.4
+442 verbose linkStuff [ false,
+442 verbose linkStuff   false,
+442 verbose linkStuff   false,
+442 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+443 info linkStuff content-disposition@0.5.4
+444 verbose linkBins content-disposition@0.5.4
+445 verbose linkMans content-disposition@0.5.4
+446 verbose rebuildBundles content-disposition@0.5.4
+447 info install content-disposition@0.5.4
+448 info postinstall content-disposition@0.5.4
+449 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\content-type
+450 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\content-type
+451 info preinstall content-type@1.0.4
+452 verbose linkStuff [ false,
+452 verbose linkStuff   false,
+452 verbose linkStuff   false,
+452 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+453 info linkStuff content-type@1.0.4
+454 verbose linkBins content-type@1.0.4
+455 verbose linkMans content-type@1.0.4
+456 verbose rebuildBundles content-type@1.0.4
+457 info install content-type@1.0.4
+458 info postinstall content-type@1.0.4
+459 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\cookie
+460 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\cookie
+461 info preinstall cookie@0.5.0
+462 verbose linkStuff [ false,
+462 verbose linkStuff   false,
+462 verbose linkStuff   false,
+462 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+463 info linkStuff cookie@0.5.0
+464 verbose linkBins cookie@0.5.0
+465 verbose linkMans cookie@0.5.0
+466 verbose rebuildBundles cookie@0.5.0
+467 info install cookie@0.5.0
+468 info postinstall cookie@0.5.0
+469 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\cookie-signature
+470 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\cookie-signature
+471 info preinstall cookie-signature@1.0.6
+472 verbose linkStuff [ false,
+472 verbose linkStuff   false,
+472 verbose linkStuff   false,
+472 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+473 info linkStuff cookie-signature@1.0.6
+474 verbose linkBins cookie-signature@1.0.6
+475 verbose linkMans cookie-signature@1.0.6
+476 verbose rebuildBundles cookie-signature@1.0.6
+477 info install cookie-signature@1.0.6
+478 info postinstall cookie-signature@1.0.6
+479 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\crypto-random-string
+480 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\crypto-random-string
+481 info preinstall crypto-random-string@2.0.0
+482 verbose linkStuff [ false,
+482 verbose linkStuff   false,
+482 verbose linkStuff   false,
+482 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+483 info linkStuff crypto-random-string@2.0.0
+484 verbose linkBins crypto-random-string@2.0.0
+485 verbose linkMans crypto-random-string@2.0.0
+486 verbose rebuildBundles crypto-random-string@2.0.0
+487 info install crypto-random-string@2.0.0
+488 info postinstall crypto-random-string@2.0.0
+489 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\debug
+490 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\debug
+491 info preinstall debug@2.6.9
+492 verbose linkStuff [ false,
+492 verbose linkStuff   false,
+492 verbose linkStuff   false,
+492 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+493 info linkStuff debug@2.6.9
+494 verbose linkBins debug@2.6.9
+495 verbose linkMans debug@2.6.9
+496 verbose rebuildBundles debug@2.6.9
+497 info install debug@2.6.9
+498 info postinstall debug@2.6.9
+499 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\decompress-response
+500 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\decompress-response
+501 info preinstall decompress-response@3.3.0
+502 verbose linkStuff [ false,
+502 verbose linkStuff   false,
+502 verbose linkStuff   false,
+502 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+503 info linkStuff decompress-response@3.3.0
+504 verbose linkBins decompress-response@3.3.0
+505 verbose linkMans decompress-response@3.3.0
+506 verbose rebuildBundles decompress-response@3.3.0
+507 info install decompress-response@3.3.0
+508 info postinstall decompress-response@3.3.0
+509 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\deep-extend
+510 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\deep-extend
+511 info preinstall deep-extend@0.6.0
+512 verbose linkStuff [ false,
+512 verbose linkStuff   false,
+512 verbose linkStuff   false,
+512 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+513 info linkStuff deep-extend@0.6.0
+514 verbose linkBins deep-extend@0.6.0
+515 verbose linkMans deep-extend@0.6.0
+516 verbose rebuildBundles deep-extend@0.6.0
+517 info install deep-extend@0.6.0
+518 info postinstall deep-extend@0.6.0
+519 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\defer-to-connect
+520 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\defer-to-connect
+521 info preinstall defer-to-connect@1.1.3
+522 verbose linkStuff [ false,
+522 verbose linkStuff   false,
+522 verbose linkStuff   false,
+522 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+523 info linkStuff defer-to-connect@1.1.3
+524 verbose linkBins defer-to-connect@1.1.3
+525 verbose linkMans defer-to-connect@1.1.3
+526 verbose rebuildBundles defer-to-connect@1.1.3
+527 info install defer-to-connect@1.1.3
+528 info postinstall defer-to-connect@1.1.3
+529 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\delayed-stream
+530 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\delayed-stream
+531 info preinstall delayed-stream@1.0.0
+532 verbose linkStuff [ false,
+532 verbose linkStuff   false,
+532 verbose linkStuff   false,
+532 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+533 info linkStuff delayed-stream@1.0.0
+534 verbose linkBins delayed-stream@1.0.0
+535 verbose linkMans delayed-stream@1.0.0
+536 verbose rebuildBundles delayed-stream@1.0.0
+537 info install delayed-stream@1.0.0
+538 info postinstall delayed-stream@1.0.0
+539 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\delegates
+540 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\delegates
+541 info preinstall delegates@1.0.0
+542 verbose linkStuff [ false,
+542 verbose linkStuff   false,
+542 verbose linkStuff   false,
+542 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+543 info linkStuff delegates@1.0.0
+544 verbose linkBins delegates@1.0.0
+545 verbose linkMans delegates@1.0.0
+546 verbose rebuildBundles delegates@1.0.0
+547 info install delegates@1.0.0
+548 info postinstall delegates@1.0.0
+549 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\denque
+550 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\denque
+551 info preinstall denque@2.0.1
+552 verbose linkStuff [ false,
+552 verbose linkStuff   false,
+552 verbose linkStuff   false,
+552 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+553 info linkStuff denque@2.0.1
+554 verbose linkBins denque@2.0.1
+555 verbose linkMans denque@2.0.1
+556 verbose rebuildBundles denque@2.0.1
+557 info install denque@2.0.1
+558 info postinstall denque@2.0.1
+559 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\depd
+560 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\depd
+561 info preinstall depd@2.0.0
+562 verbose linkStuff [ false,
+562 verbose linkStuff   false,
+562 verbose linkStuff   false,
+562 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+563 info linkStuff depd@2.0.0
+564 verbose linkBins depd@2.0.0
+565 verbose linkMans depd@2.0.0
+566 verbose rebuildBundles depd@2.0.0
+567 info install depd@2.0.0
+568 info postinstall depd@2.0.0
+569 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\destroy
+570 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\destroy
+571 info preinstall destroy@1.2.0
+572 verbose linkStuff [ false,
+572 verbose linkStuff   false,
+572 verbose linkStuff   false,
+572 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+573 info linkStuff destroy@1.2.0
+574 verbose linkBins destroy@1.2.0
+575 verbose linkMans destroy@1.2.0
+576 verbose rebuildBundles destroy@1.2.0
+577 info install destroy@1.2.0
+578 info postinstall destroy@1.2.0
+579 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\detect-libc
+580 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\detect-libc
+581 info preinstall detect-libc@2.0.1
+582 verbose linkStuff [ false,
+582 verbose linkStuff   false,
+582 verbose linkStuff   false,
+582 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+583 info linkStuff detect-libc@2.0.1
+584 verbose linkBins detect-libc@2.0.1
+585 verbose linkMans detect-libc@2.0.1
+586 verbose rebuildBundles detect-libc@2.0.1
+587 info install detect-libc@2.0.1
+588 info postinstall detect-libc@2.0.1
+589 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\dot-prop
+590 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\dot-prop
+591 info preinstall dot-prop@5.3.0
+592 verbose linkStuff [ false,
+592 verbose linkStuff   false,
+592 verbose linkStuff   false,
+592 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+593 info linkStuff dot-prop@5.3.0
+594 verbose linkBins dot-prop@5.3.0
+595 verbose linkMans dot-prop@5.3.0
+596 verbose rebuildBundles dot-prop@5.3.0
+597 info install dot-prop@5.3.0
+598 info postinstall dot-prop@5.3.0
+599 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\dottie
+600 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\dottie
+601 info preinstall dottie@2.0.2
+602 verbose linkStuff [ false,
+602 verbose linkStuff   false,
+602 verbose linkStuff   false,
+602 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+603 info linkStuff dottie@2.0.2
+604 verbose linkBins dottie@2.0.2
+605 verbose linkMans dottie@2.0.2
+606 verbose rebuildBundles dottie@2.0.2
+607 info install dottie@2.0.2
+608 info postinstall dottie@2.0.2
+609 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\duplexer3
+610 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\duplexer3
+611 info preinstall duplexer3@0.1.4
+612 verbose linkStuff [ false,
+612 verbose linkStuff   false,
+612 verbose linkStuff   false,
+612 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+613 info linkStuff duplexer3@0.1.4
+614 verbose linkBins duplexer3@0.1.4
+615 verbose linkMans duplexer3@0.1.4
+616 verbose rebuildBundles duplexer3@0.1.4
+617 info install duplexer3@0.1.4
+618 info postinstall duplexer3@0.1.4
+619 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ecdsa-sig-formatter
+620 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ecdsa-sig-formatter
+621 info preinstall ecdsa-sig-formatter@1.0.11
+622 verbose linkStuff [ false,
+622 verbose linkStuff   false,
+622 verbose linkStuff   false,
+622 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+623 info linkStuff ecdsa-sig-formatter@1.0.11
+624 verbose linkBins ecdsa-sig-formatter@1.0.11
+625 verbose linkMans ecdsa-sig-formatter@1.0.11
+626 verbose rebuildBundles ecdsa-sig-formatter@1.0.11
+627 info install ecdsa-sig-formatter@1.0.11
+628 info postinstall ecdsa-sig-formatter@1.0.11
+629 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ee-first
+630 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ee-first
+631 info preinstall ee-first@1.1.1
+632 verbose linkStuff [ false,
+632 verbose linkStuff   false,
+632 verbose linkStuff   false,
+632 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+633 info linkStuff ee-first@1.1.1
+634 verbose linkBins ee-first@1.1.1
+635 verbose linkMans ee-first@1.1.1
+636 verbose rebuildBundles ee-first@1.1.1
+637 info install ee-first@1.1.1
+638 info postinstall ee-first@1.1.1
+639 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\emoji-regex
+640 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\emoji-regex
+641 info preinstall emoji-regex@8.0.0
+642 verbose linkStuff [ false,
+642 verbose linkStuff   false,
+642 verbose linkStuff   false,
+642 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+643 info linkStuff emoji-regex@8.0.0
+644 verbose linkBins emoji-regex@8.0.0
+645 verbose linkMans emoji-regex@8.0.0
+646 verbose rebuildBundles emoji-regex@8.0.0
+647 info install emoji-regex@8.0.0
+648 info postinstall emoji-regex@8.0.0
+649 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\encodeurl
+650 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\encodeurl
+651 info preinstall encodeurl@1.0.2
+652 verbose linkStuff [ false,
+652 verbose linkStuff   false,
+652 verbose linkStuff   false,
+652 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+653 info linkStuff encodeurl@1.0.2
+654 verbose linkBins encodeurl@1.0.2
+655 verbose linkMans encodeurl@1.0.2
+656 verbose rebuildBundles encodeurl@1.0.2
+657 info install encodeurl@1.0.2
+658 info postinstall encodeurl@1.0.2
+659 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\end-of-stream
+660 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\end-of-stream
+661 info preinstall end-of-stream@1.4.4
+662 verbose linkStuff [ false,
+662 verbose linkStuff   false,
+662 verbose linkStuff   false,
+662 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+663 info linkStuff end-of-stream@1.4.4
+664 verbose linkBins end-of-stream@1.4.4
+665 verbose linkMans end-of-stream@1.4.4
+666 verbose rebuildBundles end-of-stream@1.4.4
+667 info install end-of-stream@1.4.4
+668 info postinstall end-of-stream@1.4.4
+669 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\escape-goat
+670 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\escape-goat
+671 info preinstall escape-goat@2.1.1
+672 verbose linkStuff [ false,
+672 verbose linkStuff   false,
+672 verbose linkStuff   false,
+672 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+673 info linkStuff escape-goat@2.1.1
+674 verbose linkBins escape-goat@2.1.1
+675 verbose linkMans escape-goat@2.1.1
+676 verbose rebuildBundles escape-goat@2.1.1
+677 info install escape-goat@2.1.1
+678 info postinstall escape-goat@2.1.1
+679 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\escape-html
+680 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\escape-html
+681 info preinstall escape-html@1.0.3
+682 verbose linkStuff [ false,
+682 verbose linkStuff   false,
+682 verbose linkStuff   false,
+682 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+683 info linkStuff escape-html@1.0.3
+684 verbose linkBins escape-html@1.0.3
+685 verbose linkMans escape-html@1.0.3
+686 verbose rebuildBundles escape-html@1.0.3
+687 info install escape-html@1.0.3
+688 info postinstall escape-html@1.0.3
+689 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\etag
+690 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\etag
+691 info preinstall etag@1.8.1
+692 verbose linkStuff [ false,
+692 verbose linkStuff   false,
+692 verbose linkStuff   false,
+692 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+693 info linkStuff etag@1.8.1
+694 verbose linkBins etag@1.8.1
+695 verbose linkMans etag@1.8.1
+696 verbose rebuildBundles etag@1.8.1
+697 info install etag@1.8.1
+698 info postinstall etag@1.8.1
+699 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\fill-range
+700 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\fill-range
+701 info preinstall fill-range@7.0.1
+702 verbose linkStuff [ false,
+702 verbose linkStuff   false,
+702 verbose linkStuff   false,
+702 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+703 info linkStuff fill-range@7.0.1
+704 verbose linkBins fill-range@7.0.1
+705 verbose linkMans fill-range@7.0.1
+706 verbose rebuildBundles fill-range@7.0.1
+707 info install fill-range@7.0.1
+708 info postinstall fill-range@7.0.1
+709 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\finalhandler
+710 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\finalhandler
+711 info preinstall finalhandler@1.2.0
+712 verbose linkStuff [ false,
+712 verbose linkStuff   false,
+712 verbose linkStuff   false,
+712 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+713 info linkStuff finalhandler@1.2.0
+714 verbose linkBins finalhandler@1.2.0
+715 verbose linkMans finalhandler@1.2.0
+716 verbose rebuildBundles finalhandler@1.2.0
+717 info install finalhandler@1.2.0
+718 info postinstall finalhandler@1.2.0
+719 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\follow-redirects
+720 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\follow-redirects
+721 info preinstall follow-redirects@1.15.0
+722 verbose linkStuff [ false,
+722 verbose linkStuff   false,
+722 verbose linkStuff   false,
+722 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+723 info linkStuff follow-redirects@1.15.0
+724 verbose linkBins follow-redirects@1.15.0
+725 verbose linkMans follow-redirects@1.15.0
+726 verbose rebuildBundles follow-redirects@1.15.0
+727 info install follow-redirects@1.15.0
+728 info postinstall follow-redirects@1.15.0
+729 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\form-data
+730 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\form-data
+731 info preinstall form-data@4.0.0
+732 verbose linkStuff [ false,
+732 verbose linkStuff   false,
+732 verbose linkStuff   false,
+732 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+733 info linkStuff form-data@4.0.0
+734 verbose linkBins form-data@4.0.0
+735 verbose linkMans form-data@4.0.0
+736 verbose rebuildBundles form-data@4.0.0
+737 info install form-data@4.0.0
+738 info postinstall form-data@4.0.0
+739 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\forwarded
+740 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\forwarded
+741 info preinstall forwarded@0.2.0
+742 verbose linkStuff [ false,
+742 verbose linkStuff   false,
+742 verbose linkStuff   false,
+742 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+743 info linkStuff forwarded@0.2.0
+744 verbose linkBins forwarded@0.2.0
+745 verbose linkMans forwarded@0.2.0
+746 verbose rebuildBundles forwarded@0.2.0
+747 info install forwarded@0.2.0
+748 info postinstall forwarded@0.2.0
+749 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\fresh
+750 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\fresh
+751 info preinstall fresh@0.5.2
+752 verbose linkStuff [ false,
+752 verbose linkStuff   false,
+752 verbose linkStuff   false,
+752 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+753 info linkStuff fresh@0.5.2
+754 verbose linkBins fresh@0.5.2
+755 verbose linkMans fresh@0.5.2
+756 verbose rebuildBundles fresh@0.5.2
+757 info install fresh@0.5.2
+758 info postinstall fresh@0.5.2
+759 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\fs-minipass
+760 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\fs-minipass
+761 info preinstall fs-minipass@2.1.0
+762 verbose linkStuff [ false,
+762 verbose linkStuff   false,
+762 verbose linkStuff   false,
+762 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+763 info linkStuff fs-minipass@2.1.0
+764 verbose linkBins fs-minipass@2.1.0
+765 verbose linkMans fs-minipass@2.1.0
+766 verbose rebuildBundles fs-minipass@2.1.0
+767 info install fs-minipass@2.1.0
+768 info postinstall fs-minipass@2.1.0
+769 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\fs.realpath
+770 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\fs.realpath
+771 info preinstall fs.realpath@1.0.0
+772 verbose linkStuff [ false,
+772 verbose linkStuff   false,
+772 verbose linkStuff   false,
+772 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+773 info linkStuff fs.realpath@1.0.0
+774 verbose linkBins fs.realpath@1.0.0
+775 verbose linkMans fs.realpath@1.0.0
+776 verbose rebuildBundles fs.realpath@1.0.0
+777 info install fs.realpath@1.0.0
+778 info postinstall fs.realpath@1.0.0
+779 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\function-bind
+780 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\function-bind
+781 info preinstall function-bind@1.1.1
+782 verbose linkStuff [ false,
+782 verbose linkStuff   false,
+782 verbose linkStuff   false,
+782 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+783 info linkStuff function-bind@1.1.1
+784 verbose linkBins function-bind@1.1.1
+785 verbose linkMans function-bind@1.1.1
+786 verbose rebuildBundles function-bind@1.1.1
+787 info install function-bind@1.1.1
+788 info postinstall function-bind@1.1.1
+789 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\gauge
+790 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\gauge
+791 info preinstall gauge@3.0.2
+792 verbose linkStuff [ false,
+792 verbose linkStuff   false,
+792 verbose linkStuff   false,
+792 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+793 info linkStuff gauge@3.0.2
+794 verbose linkBins gauge@3.0.2
+795 verbose linkMans gauge@3.0.2
+796 verbose rebuildBundles gauge@3.0.2
+797 info install gauge@3.0.2
+798 info postinstall gauge@3.0.2
+799 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\generate-function
+800 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\generate-function
+801 info preinstall generate-function@2.3.1
+802 verbose linkStuff [ false,
+802 verbose linkStuff   false,
+802 verbose linkStuff   false,
+802 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+803 info linkStuff generate-function@2.3.1
+804 verbose linkBins generate-function@2.3.1
+805 verbose linkMans generate-function@2.3.1
+806 verbose rebuildBundles generate-function@2.3.1
+807 info install generate-function@2.3.1
+808 info postinstall generate-function@2.3.1
+809 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\get-intrinsic
+810 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\get-intrinsic
+811 info preinstall get-intrinsic@1.1.1
+812 verbose linkStuff [ false,
+812 verbose linkStuff   false,
+812 verbose linkStuff   false,
+812 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+813 info linkStuff get-intrinsic@1.1.1
+814 verbose linkBins get-intrinsic@1.1.1
+815 verbose linkMans get-intrinsic@1.1.1
+816 verbose rebuildBundles get-intrinsic@1.1.1
+817 info install get-intrinsic@1.1.1
+818 info postinstall get-intrinsic@1.1.1
+819 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\get-stream
+820 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\get-stream
+821 info preinstall get-stream@4.1.0
+822 verbose linkStuff [ false,
+822 verbose linkStuff   false,
+822 verbose linkStuff   false,
+822 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+823 info linkStuff get-stream@4.1.0
+824 verbose linkBins get-stream@4.1.0
+825 verbose linkMans get-stream@4.1.0
+826 verbose rebuildBundles get-stream@4.1.0
+827 info install get-stream@4.1.0
+828 info postinstall get-stream@4.1.0
+829 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\glob
+830 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\glob
+831 info preinstall glob@7.2.3
+832 verbose linkStuff [ false,
+832 verbose linkStuff   false,
+832 verbose linkStuff   false,
+832 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+833 info linkStuff glob@7.2.3
+834 verbose linkBins glob@7.2.3
+835 verbose linkMans glob@7.2.3
+836 verbose rebuildBundles glob@7.2.3
+837 info install glob@7.2.3
+838 info postinstall glob@7.2.3
+839 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\glob-parent
+840 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\glob-parent
+841 info preinstall glob-parent@5.1.2
+842 verbose linkStuff [ false,
+842 verbose linkStuff   false,
+842 verbose linkStuff   false,
+842 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+843 info linkStuff glob-parent@5.1.2
+844 verbose linkBins glob-parent@5.1.2
+845 verbose linkMans glob-parent@5.1.2
+846 verbose rebuildBundles glob-parent@5.1.2
+847 info install glob-parent@5.1.2
+848 info postinstall glob-parent@5.1.2
+849 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\global-dirs
+850 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\global-dirs
+851 info preinstall global-dirs@3.0.0
+852 verbose linkStuff [ false,
+852 verbose linkStuff   false,
+852 verbose linkStuff   false,
+852 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+853 info linkStuff global-dirs@3.0.0
+854 verbose linkBins global-dirs@3.0.0
+855 verbose linkMans global-dirs@3.0.0
+856 verbose rebuildBundles global-dirs@3.0.0
+857 info install global-dirs@3.0.0
+858 info postinstall global-dirs@3.0.0
+859 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\got
+860 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\got
+861 info preinstall got@9.6.0
+862 verbose linkStuff [ false,
+862 verbose linkStuff   false,
+862 verbose linkStuff   false,
+862 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+863 info linkStuff got@9.6.0
+864 verbose linkBins got@9.6.0
+865 verbose linkMans got@9.6.0
+866 verbose rebuildBundles got@9.6.0
+867 info install got@9.6.0
+868 info postinstall got@9.6.0
+869 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\graceful-fs
+870 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\graceful-fs
+871 info preinstall graceful-fs@4.2.10
+872 verbose linkStuff [ false,
+872 verbose linkStuff   false,
+872 verbose linkStuff   false,
+872 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+873 info linkStuff graceful-fs@4.2.10
+874 verbose linkBins graceful-fs@4.2.10
+875 verbose linkMans graceful-fs@4.2.10
+876 verbose rebuildBundles graceful-fs@4.2.10
+877 info install graceful-fs@4.2.10
+878 info postinstall graceful-fs@4.2.10
+879 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\has
+880 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\has
+881 info preinstall has@1.0.3
+882 verbose linkStuff [ false,
+882 verbose linkStuff   false,
+882 verbose linkStuff   false,
+882 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+883 info linkStuff has@1.0.3
+884 verbose linkBins has@1.0.3
+885 verbose linkMans has@1.0.3
+886 verbose rebuildBundles has@1.0.3
+887 info install has@1.0.3
+888 info postinstall has@1.0.3
+889 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\has-flag
+890 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\has-flag
+891 info preinstall has-flag@3.0.0
+892 verbose linkStuff [ false,
+892 verbose linkStuff   false,
+892 verbose linkStuff   false,
+892 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+893 info linkStuff has-flag@3.0.0
+894 verbose linkBins has-flag@3.0.0
+895 verbose linkMans has-flag@3.0.0
+896 verbose rebuildBundles has-flag@3.0.0
+897 info install has-flag@3.0.0
+898 info postinstall has-flag@3.0.0
+899 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\has-symbols
+900 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\has-symbols
+901 info preinstall has-symbols@1.0.3
+902 verbose linkStuff [ false,
+902 verbose linkStuff   false,
+902 verbose linkStuff   false,
+902 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+903 info linkStuff has-symbols@1.0.3
+904 verbose linkBins has-symbols@1.0.3
+905 verbose linkMans has-symbols@1.0.3
+906 verbose rebuildBundles has-symbols@1.0.3
+907 info install has-symbols@1.0.3
+908 info postinstall has-symbols@1.0.3
+909 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\has-unicode
+910 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\has-unicode
+911 info preinstall has-unicode@2.0.1
+912 verbose linkStuff [ false,
+912 verbose linkStuff   false,
+912 verbose linkStuff   false,
+912 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+913 info linkStuff has-unicode@2.0.1
+914 verbose linkBins has-unicode@2.0.1
+915 verbose linkMans has-unicode@2.0.1
+916 verbose rebuildBundles has-unicode@2.0.1
+917 info install has-unicode@2.0.1
+918 info postinstall has-unicode@2.0.1
+919 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\has-yarn
+920 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\has-yarn
+921 info preinstall has-yarn@2.1.0
+922 verbose linkStuff [ false,
+922 verbose linkStuff   false,
+922 verbose linkStuff   false,
+922 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+923 info linkStuff has-yarn@2.1.0
+924 verbose linkBins has-yarn@2.1.0
+925 verbose linkMans has-yarn@2.1.0
+926 verbose rebuildBundles has-yarn@2.1.0
+927 info install has-yarn@2.1.0
+928 info postinstall has-yarn@2.1.0
+929 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\http-cache-semantics
+930 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\http-cache-semantics
+931 info preinstall http-cache-semantics@4.1.0
+932 verbose linkStuff [ false,
+932 verbose linkStuff   false,
+932 verbose linkStuff   false,
+932 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+933 info linkStuff http-cache-semantics@4.1.0
+934 verbose linkBins http-cache-semantics@4.1.0
+935 verbose linkMans http-cache-semantics@4.1.0
+936 verbose rebuildBundles http-cache-semantics@4.1.0
+937 info install http-cache-semantics@4.1.0
+938 info postinstall http-cache-semantics@4.1.0
+939 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\http-errors
+940 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\http-errors
+941 info preinstall http-errors@2.0.0
+942 verbose linkStuff [ false,
+942 verbose linkStuff   false,
+942 verbose linkStuff   false,
+942 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+943 info linkStuff http-errors@2.0.0
+944 verbose linkBins http-errors@2.0.0
+945 verbose linkMans http-errors@2.0.0
+946 verbose rebuildBundles http-errors@2.0.0
+947 info install http-errors@2.0.0
+948 info postinstall http-errors@2.0.0
+949 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\https-proxy-agent
+950 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\https-proxy-agent
+951 info preinstall https-proxy-agent@5.0.1
+952 verbose linkStuff [ false,
+952 verbose linkStuff   false,
+952 verbose linkStuff   false,
+952 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+953 info linkStuff https-proxy-agent@5.0.1
+954 verbose linkBins https-proxy-agent@5.0.1
+955 verbose linkMans https-proxy-agent@5.0.1
+956 verbose rebuildBundles https-proxy-agent@5.0.1
+957 verbose rebuildBundles [ 'debug', 'ms' ]
+958 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\https-proxy-agent\node_modules\ms
+959 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\https-proxy-agent\node_modules\ms
+960 info preinstall ms@2.1.2
+961 verbose linkStuff [ false,
+961 verbose linkStuff   false,
+961 verbose linkStuff   false,
+961 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules\\https-proxy-agent\\node_modules' ]
+962 info linkStuff ms@2.1.2
+963 verbose linkBins ms@2.1.2
+964 verbose linkMans ms@2.1.2
+965 verbose rebuildBundles ms@2.1.2
+966 info install ms@2.1.2
+967 info postinstall ms@2.1.2
+968 info install https-proxy-agent@5.0.1
+969 info postinstall https-proxy-agent@5.0.1
+970 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\iconv-lite
+971 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\iconv-lite
+972 info preinstall iconv-lite@0.4.24
+973 verbose linkStuff [ false,
+973 verbose linkStuff   false,
+973 verbose linkStuff   false,
+973 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+974 info linkStuff iconv-lite@0.4.24
+975 verbose linkBins iconv-lite@0.4.24
+976 verbose linkMans iconv-lite@0.4.24
+977 verbose rebuildBundles iconv-lite@0.4.24
+978 info install iconv-lite@0.4.24
+979 info postinstall iconv-lite@0.4.24
+980 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ieee754
+981 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ieee754
+982 info preinstall ieee754@1.2.1
+983 verbose linkStuff [ false,
+983 verbose linkStuff   false,
+983 verbose linkStuff   false,
+983 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+984 info linkStuff ieee754@1.2.1
+985 verbose linkBins ieee754@1.2.1
+986 verbose linkMans ieee754@1.2.1
+987 verbose rebuildBundles ieee754@1.2.1
+988 info install ieee754@1.2.1
+989 info postinstall ieee754@1.2.1
+990 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ignore-by-default
+991 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ignore-by-default
+992 info preinstall ignore-by-default@1.0.1
+993 verbose linkStuff [ false,
+993 verbose linkStuff   false,
+993 verbose linkStuff   false,
+993 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+994 info linkStuff ignore-by-default@1.0.1
+995 verbose linkBins ignore-by-default@1.0.1
+996 verbose linkMans ignore-by-default@1.0.1
+997 verbose rebuildBundles ignore-by-default@1.0.1
+998 info install ignore-by-default@1.0.1
+999 info postinstall ignore-by-default@1.0.1
+1000 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\import-lazy
+1001 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\import-lazy
+1002 info preinstall import-lazy@2.1.0
+1003 verbose linkStuff [ false,
+1003 verbose linkStuff   false,
+1003 verbose linkStuff   false,
+1003 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1004 info linkStuff import-lazy@2.1.0
+1005 verbose linkBins import-lazy@2.1.0
+1006 verbose linkMans import-lazy@2.1.0
+1007 verbose rebuildBundles import-lazy@2.1.0
+1008 info install import-lazy@2.1.0
+1009 info postinstall import-lazy@2.1.0
+1010 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\imurmurhash
+1011 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\imurmurhash
+1012 info preinstall imurmurhash@0.1.4
+1013 verbose linkStuff [ false,
+1013 verbose linkStuff   false,
+1013 verbose linkStuff   false,
+1013 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1014 info linkStuff imurmurhash@0.1.4
+1015 verbose linkBins imurmurhash@0.1.4
+1016 verbose linkMans imurmurhash@0.1.4
+1017 verbose rebuildBundles imurmurhash@0.1.4
+1018 info install imurmurhash@0.1.4
+1019 info postinstall imurmurhash@0.1.4
+1020 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\inflection
+1021 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\inflection
+1022 info preinstall inflection@1.13.2
+1023 verbose linkStuff [ false,
+1023 verbose linkStuff   false,
+1023 verbose linkStuff   false,
+1023 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1024 info linkStuff inflection@1.13.2
+1025 verbose linkBins inflection@1.13.2
+1026 verbose linkMans inflection@1.13.2
+1027 verbose rebuildBundles inflection@1.13.2
+1028 info install inflection@1.13.2
+1029 info postinstall inflection@1.13.2
+1030 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\inflight
+1031 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\inflight
+1032 info preinstall inflight@1.0.6
+1033 verbose linkStuff [ false,
+1033 verbose linkStuff   false,
+1033 verbose linkStuff   false,
+1033 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1034 info linkStuff inflight@1.0.6
+1035 verbose linkBins inflight@1.0.6
+1036 verbose linkMans inflight@1.0.6
+1037 verbose rebuildBundles inflight@1.0.6
+1038 info install inflight@1.0.6
+1039 info postinstall inflight@1.0.6
+1040 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\inherits
+1041 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\inherits
+1042 info preinstall inherits@2.0.4
+1043 verbose linkStuff [ false,
+1043 verbose linkStuff   false,
+1043 verbose linkStuff   false,
+1043 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1044 info linkStuff inherits@2.0.4
+1045 verbose linkBins inherits@2.0.4
+1046 verbose linkMans inherits@2.0.4
+1047 verbose rebuildBundles inherits@2.0.4
+1048 info install inherits@2.0.4
+1049 info postinstall inherits@2.0.4
+1050 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ini
+1051 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ini
+1052 info preinstall ini@2.0.0
+1053 verbose linkStuff [ false,
+1053 verbose linkStuff   false,
+1053 verbose linkStuff   false,
+1053 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1054 info linkStuff ini@2.0.0
+1055 verbose linkBins ini@2.0.0
+1056 verbose linkMans ini@2.0.0
+1057 verbose rebuildBundles ini@2.0.0
+1058 info install ini@2.0.0
+1059 info postinstall ini@2.0.0
+1060 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ip
+1061 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ip
+1062 info preinstall ip@1.1.5
+1063 verbose linkStuff [ false,
+1063 verbose linkStuff   false,
+1063 verbose linkStuff   false,
+1063 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1064 info linkStuff ip@1.1.5
+1065 verbose linkBins ip@1.1.5
+1066 verbose linkMans ip@1.1.5
+1067 verbose rebuildBundles ip@1.1.5
+1068 info install ip@1.1.5
+1069 info postinstall ip@1.1.5
+1070 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ipaddr.js
+1071 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ipaddr.js
+1072 info preinstall ipaddr.js@1.9.1
+1073 verbose linkStuff [ false,
+1073 verbose linkStuff   false,
+1073 verbose linkStuff   false,
+1073 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1074 info linkStuff ipaddr.js@1.9.1
+1075 verbose linkBins ipaddr.js@1.9.1
+1076 verbose linkMans ipaddr.js@1.9.1
+1077 verbose rebuildBundles ipaddr.js@1.9.1
+1078 info install ipaddr.js@1.9.1
+1079 info postinstall ipaddr.js@1.9.1
+1080 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-binary-path
+1081 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-binary-path
+1082 info preinstall is-binary-path@2.1.0
+1083 verbose linkStuff [ false,
+1083 verbose linkStuff   false,
+1083 verbose linkStuff   false,
+1083 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1084 info linkStuff is-binary-path@2.1.0
+1085 verbose linkBins is-binary-path@2.1.0
+1086 verbose linkMans is-binary-path@2.1.0
+1087 verbose rebuildBundles is-binary-path@2.1.0
+1088 info install is-binary-path@2.1.0
+1089 info postinstall is-binary-path@2.1.0
+1090 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-ci
+1091 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-ci
+1092 info preinstall is-ci@2.0.0
+1093 verbose linkStuff [ false,
+1093 verbose linkStuff   false,
+1093 verbose linkStuff   false,
+1093 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1094 info linkStuff is-ci@2.0.0
+1095 verbose linkBins is-ci@2.0.0
+1096 verbose link bins [ { 'is-ci': 'bin.js' },
+1096 verbose link bins   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules\\.bin',
+1096 verbose link bins   false ]
+1097 verbose linkMans is-ci@2.0.0
+1098 verbose rebuildBundles is-ci@2.0.0
+1099 info install is-ci@2.0.0
+1100 info postinstall is-ci@2.0.0
+1101 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-extglob
+1102 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-extglob
+1103 info preinstall is-extglob@2.1.1
+1104 verbose linkStuff [ false,
+1104 verbose linkStuff   false,
+1104 verbose linkStuff   false,
+1104 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1105 info linkStuff is-extglob@2.1.1
+1106 verbose linkBins is-extglob@2.1.1
+1107 verbose linkMans is-extglob@2.1.1
+1108 verbose rebuildBundles is-extglob@2.1.1
+1109 info install is-extglob@2.1.1
+1110 info postinstall is-extglob@2.1.1
+1111 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-fullwidth-code-point
+1112 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-fullwidth-code-point
+1113 info preinstall is-fullwidth-code-point@3.0.0
+1114 verbose linkStuff [ false,
+1114 verbose linkStuff   false,
+1114 verbose linkStuff   false,
+1114 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1115 info linkStuff is-fullwidth-code-point@3.0.0
+1116 verbose linkBins is-fullwidth-code-point@3.0.0
+1117 verbose linkMans is-fullwidth-code-point@3.0.0
+1118 verbose rebuildBundles is-fullwidth-code-point@3.0.0
+1119 info install is-fullwidth-code-point@3.0.0
+1120 info postinstall is-fullwidth-code-point@3.0.0
+1121 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-glob
+1122 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-glob
+1123 info preinstall is-glob@4.0.3
+1124 verbose linkStuff [ false,
+1124 verbose linkStuff   false,
+1124 verbose linkStuff   false,
+1124 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1125 info linkStuff is-glob@4.0.3
+1126 verbose linkBins is-glob@4.0.3
+1127 verbose linkMans is-glob@4.0.3
+1128 verbose rebuildBundles is-glob@4.0.3
+1129 info install is-glob@4.0.3
+1130 info postinstall is-glob@4.0.3
+1131 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-installed-globally
+1132 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-installed-globally
+1133 info preinstall is-installed-globally@0.4.0
+1134 verbose linkStuff [ false,
+1134 verbose linkStuff   false,
+1134 verbose linkStuff   false,
+1134 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1135 info linkStuff is-installed-globally@0.4.0
+1136 verbose linkBins is-installed-globally@0.4.0
+1137 verbose linkMans is-installed-globally@0.4.0
+1138 verbose rebuildBundles is-installed-globally@0.4.0
+1139 info install is-installed-globally@0.4.0
+1140 info postinstall is-installed-globally@0.4.0
+1141 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-npm
+1142 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-npm
+1143 info preinstall is-npm@5.0.0
+1144 verbose linkStuff [ false,
+1144 verbose linkStuff   false,
+1144 verbose linkStuff   false,
+1144 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1145 info linkStuff is-npm@5.0.0
+1146 verbose linkBins is-npm@5.0.0
+1147 verbose linkMans is-npm@5.0.0
+1148 verbose rebuildBundles is-npm@5.0.0
+1149 info install is-npm@5.0.0
+1150 info postinstall is-npm@5.0.0
+1151 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-number
+1152 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-number
+1153 info preinstall is-number@7.0.0
+1154 verbose linkStuff [ false,
+1154 verbose linkStuff   false,
+1154 verbose linkStuff   false,
+1154 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1155 info linkStuff is-number@7.0.0
+1156 verbose linkBins is-number@7.0.0
+1157 verbose linkMans is-number@7.0.0
+1158 verbose rebuildBundles is-number@7.0.0
+1159 info install is-number@7.0.0
+1160 info postinstall is-number@7.0.0
+1161 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-obj
+1162 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-obj
+1163 info preinstall is-obj@2.0.0
+1164 verbose linkStuff [ false,
+1164 verbose linkStuff   false,
+1164 verbose linkStuff   false,
+1164 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1165 info linkStuff is-obj@2.0.0
+1166 verbose linkBins is-obj@2.0.0
+1167 verbose linkMans is-obj@2.0.0
+1168 verbose rebuildBundles is-obj@2.0.0
+1169 info install is-obj@2.0.0
+1170 info postinstall is-obj@2.0.0
+1171 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-path-inside
+1172 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-path-inside
+1173 info preinstall is-path-inside@3.0.3
+1174 verbose linkStuff [ false,
+1174 verbose linkStuff   false,
+1174 verbose linkStuff   false,
+1174 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1175 info linkStuff is-path-inside@3.0.3
+1176 verbose linkBins is-path-inside@3.0.3
+1177 verbose linkMans is-path-inside@3.0.3
+1178 verbose rebuildBundles is-path-inside@3.0.3
+1179 info install is-path-inside@3.0.3
+1180 info postinstall is-path-inside@3.0.3
+1181 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-property
+1182 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-property
+1183 info preinstall is-property@1.0.2
+1184 verbose linkStuff [ false,
+1184 verbose linkStuff   false,
+1184 verbose linkStuff   false,
+1184 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1185 info linkStuff is-property@1.0.2
+1186 verbose linkBins is-property@1.0.2
+1187 verbose linkMans is-property@1.0.2
+1188 verbose rebuildBundles is-property@1.0.2
+1189 info install is-property@1.0.2
+1190 info postinstall is-property@1.0.2
+1191 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-typedarray
+1192 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-typedarray
+1193 info preinstall is-typedarray@1.0.0
+1194 verbose linkStuff [ false,
+1194 verbose linkStuff   false,
+1194 verbose linkStuff   false,
+1194 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1195 info linkStuff is-typedarray@1.0.0
+1196 verbose linkBins is-typedarray@1.0.0
+1197 verbose linkMans is-typedarray@1.0.0
+1198 verbose rebuildBundles is-typedarray@1.0.0
+1199 info install is-typedarray@1.0.0
+1200 info postinstall is-typedarray@1.0.0
+1201 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-yarn-global
+1202 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\is-yarn-global
+1203 info preinstall is-yarn-global@0.3.0
+1204 verbose linkStuff [ false,
+1204 verbose linkStuff   false,
+1204 verbose linkStuff   false,
+1204 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1205 info linkStuff is-yarn-global@0.3.0
+1206 verbose linkBins is-yarn-global@0.3.0
+1207 verbose linkMans is-yarn-global@0.3.0
+1208 verbose rebuildBundles is-yarn-global@0.3.0
+1209 info install is-yarn-global@0.3.0
+1210 info postinstall is-yarn-global@0.3.0
+1211 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\json-buffer
+1212 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\json-buffer
+1213 info preinstall json-buffer@3.0.0
+1214 verbose linkStuff [ false,
+1214 verbose linkStuff   false,
+1214 verbose linkStuff   false,
+1214 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1215 info linkStuff json-buffer@3.0.0
+1216 verbose linkBins json-buffer@3.0.0
+1217 verbose linkMans json-buffer@3.0.0
+1218 verbose rebuildBundles json-buffer@3.0.0
+1219 info install json-buffer@3.0.0
+1220 info postinstall json-buffer@3.0.0
+1221 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\jwa
+1222 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\jwa
+1223 info preinstall jwa@1.4.1
+1224 verbose linkStuff [ false,
+1224 verbose linkStuff   false,
+1224 verbose linkStuff   false,
+1224 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1225 info linkStuff jwa@1.4.1
+1226 verbose linkBins jwa@1.4.1
+1227 verbose linkMans jwa@1.4.1
+1228 verbose rebuildBundles jwa@1.4.1
+1229 info install jwa@1.4.1
+1230 info postinstall jwa@1.4.1
+1231 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\jws
+1232 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\jws
+1233 info preinstall jws@3.2.2
+1234 verbose linkStuff [ false,
+1234 verbose linkStuff   false,
+1234 verbose linkStuff   false,
+1234 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1235 info linkStuff jws@3.2.2
+1236 verbose linkBins jws@3.2.2
+1237 verbose linkMans jws@3.2.2
+1238 verbose rebuildBundles jws@3.2.2
+1239 info install jws@3.2.2
+1240 info postinstall jws@3.2.2
+1241 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\kareem
+1242 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\kareem
+1243 info preinstall kareem@2.3.5
+1244 verbose linkStuff [ false,
+1244 verbose linkStuff   false,
+1244 verbose linkStuff   false,
+1244 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1245 info linkStuff kareem@2.3.5
+1246 verbose linkBins kareem@2.3.5
+1247 verbose linkMans kareem@2.3.5
+1248 verbose rebuildBundles kareem@2.3.5
+1249 info install kareem@2.3.5
+1250 info postinstall kareem@2.3.5
+1251 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\keyv
+1252 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\keyv
+1253 info preinstall keyv@3.1.0
+1254 verbose linkStuff [ false,
+1254 verbose linkStuff   false,
+1254 verbose linkStuff   false,
+1254 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1255 info linkStuff keyv@3.1.0
+1256 verbose linkBins keyv@3.1.0
+1257 verbose linkMans keyv@3.1.0
+1258 verbose rebuildBundles keyv@3.1.0
+1259 info install keyv@3.1.0
+1260 info postinstall keyv@3.1.0
+1261 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\latest-version
+1262 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\latest-version
+1263 info preinstall latest-version@5.1.0
+1264 verbose linkStuff [ false,
+1264 verbose linkStuff   false,
+1264 verbose linkStuff   false,
+1264 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1265 info linkStuff latest-version@5.1.0
+1266 verbose linkBins latest-version@5.1.0
+1267 verbose linkMans latest-version@5.1.0
+1268 verbose rebuildBundles latest-version@5.1.0
+1269 info install latest-version@5.1.0
+1270 info postinstall latest-version@5.1.0
+1271 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash
+1272 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash
+1273 info preinstall lodash@4.17.21
+1274 verbose linkStuff [ false,
+1274 verbose linkStuff   false,
+1274 verbose linkStuff   false,
+1274 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1275 info linkStuff lodash@4.17.21
+1276 verbose linkBins lodash@4.17.21
+1277 verbose linkMans lodash@4.17.21
+1278 verbose rebuildBundles lodash@4.17.21
+1279 info install lodash@4.17.21
+1280 info postinstall lodash@4.17.21
+1281 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash.includes
+1282 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash.includes
+1283 info preinstall lodash.includes@4.3.0
+1284 verbose linkStuff [ false,
+1284 verbose linkStuff   false,
+1284 verbose linkStuff   false,
+1284 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1285 info linkStuff lodash.includes@4.3.0
+1286 verbose linkBins lodash.includes@4.3.0
+1287 verbose linkMans lodash.includes@4.3.0
+1288 verbose rebuildBundles lodash.includes@4.3.0
+1289 info install lodash.includes@4.3.0
+1290 info postinstall lodash.includes@4.3.0
+1291 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash.isboolean
+1292 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash.isboolean
+1293 info preinstall lodash.isboolean@3.0.3
+1294 verbose linkStuff [ false,
+1294 verbose linkStuff   false,
+1294 verbose linkStuff   false,
+1294 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1295 info linkStuff lodash.isboolean@3.0.3
+1296 verbose linkBins lodash.isboolean@3.0.3
+1297 verbose linkMans lodash.isboolean@3.0.3
+1298 verbose rebuildBundles lodash.isboolean@3.0.3
+1299 info install lodash.isboolean@3.0.3
+1300 info postinstall lodash.isboolean@3.0.3
+1301 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash.isinteger
+1302 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash.isinteger
+1303 info preinstall lodash.isinteger@4.0.4
+1304 verbose linkStuff [ false,
+1304 verbose linkStuff   false,
+1304 verbose linkStuff   false,
+1304 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1305 info linkStuff lodash.isinteger@4.0.4
+1306 verbose linkBins lodash.isinteger@4.0.4
+1307 verbose linkMans lodash.isinteger@4.0.4
+1308 verbose rebuildBundles lodash.isinteger@4.0.4
+1309 info install lodash.isinteger@4.0.4
+1310 info postinstall lodash.isinteger@4.0.4
+1311 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash.isnumber
+1312 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash.isnumber
+1313 info preinstall lodash.isnumber@3.0.3
+1314 verbose linkStuff [ false,
+1314 verbose linkStuff   false,
+1314 verbose linkStuff   false,
+1314 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1315 info linkStuff lodash.isnumber@3.0.3
+1316 verbose linkBins lodash.isnumber@3.0.3
+1317 verbose linkMans lodash.isnumber@3.0.3
+1318 verbose rebuildBundles lodash.isnumber@3.0.3
+1319 info install lodash.isnumber@3.0.3
+1320 info postinstall lodash.isnumber@3.0.3
+1321 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash.isplainobject
+1322 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash.isplainobject
+1323 info preinstall lodash.isplainobject@4.0.6
+1324 verbose linkStuff [ false,
+1324 verbose linkStuff   false,
+1324 verbose linkStuff   false,
+1324 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1325 info linkStuff lodash.isplainobject@4.0.6
+1326 verbose linkBins lodash.isplainobject@4.0.6
+1327 verbose linkMans lodash.isplainobject@4.0.6
+1328 verbose rebuildBundles lodash.isplainobject@4.0.6
+1329 info install lodash.isplainobject@4.0.6
+1330 info postinstall lodash.isplainobject@4.0.6
+1331 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash.isstring
+1332 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash.isstring
+1333 info preinstall lodash.isstring@4.0.1
+1334 verbose linkStuff [ false,
+1334 verbose linkStuff   false,
+1334 verbose linkStuff   false,
+1334 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1335 info linkStuff lodash.isstring@4.0.1
+1336 verbose linkBins lodash.isstring@4.0.1
+1337 verbose linkMans lodash.isstring@4.0.1
+1338 verbose rebuildBundles lodash.isstring@4.0.1
+1339 info install lodash.isstring@4.0.1
+1340 info postinstall lodash.isstring@4.0.1
+1341 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash.once
+1342 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lodash.once
+1343 info preinstall lodash.once@4.1.1
+1344 verbose linkStuff [ false,
+1344 verbose linkStuff   false,
+1344 verbose linkStuff   false,
+1344 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1345 info linkStuff lodash.once@4.1.1
+1346 verbose linkBins lodash.once@4.1.1
+1347 verbose linkMans lodash.once@4.1.1
+1348 verbose rebuildBundles lodash.once@4.1.1
+1349 info install lodash.once@4.1.1
+1350 info postinstall lodash.once@4.1.1
+1351 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\long
+1352 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\long
+1353 info preinstall long@4.0.0
+1354 verbose linkStuff [ false,
+1354 verbose linkStuff   false,
+1354 verbose linkStuff   false,
+1354 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1355 info linkStuff long@4.0.0
+1356 verbose linkBins long@4.0.0
+1357 verbose linkMans long@4.0.0
+1358 verbose rebuildBundles long@4.0.0
+1359 info install long@4.0.0
+1360 info postinstall long@4.0.0
+1361 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lowercase-keys
+1362 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lowercase-keys
+1363 info preinstall lowercase-keys@1.0.1
+1364 verbose linkStuff [ false,
+1364 verbose linkStuff   false,
+1364 verbose linkStuff   false,
+1364 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1365 info linkStuff lowercase-keys@1.0.1
+1366 verbose linkBins lowercase-keys@1.0.1
+1367 verbose linkMans lowercase-keys@1.0.1
+1368 verbose rebuildBundles lowercase-keys@1.0.1
+1369 info install lowercase-keys@1.0.1
+1370 info postinstall lowercase-keys@1.0.1
+1371 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lru-cache
+1372 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\lru-cache
+1373 info preinstall lru-cache@6.0.0
+1374 verbose linkStuff [ false,
+1374 verbose linkStuff   false,
+1374 verbose linkStuff   false,
+1374 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1375 info linkStuff lru-cache@6.0.0
+1376 verbose linkBins lru-cache@6.0.0
+1377 verbose linkMans lru-cache@6.0.0
+1378 verbose rebuildBundles lru-cache@6.0.0
+1379 info install lru-cache@6.0.0
+1380 info postinstall lru-cache@6.0.0
+1381 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\make-dir
+1382 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\make-dir
+1383 info preinstall make-dir@3.1.0
+1384 verbose linkStuff [ false,
+1384 verbose linkStuff   false,
+1384 verbose linkStuff   false,
+1384 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1385 info linkStuff make-dir@3.1.0
+1386 verbose linkBins make-dir@3.1.0
+1387 verbose linkMans make-dir@3.1.0
+1388 verbose rebuildBundles make-dir@3.1.0
+1389 verbose rebuildBundles [ '.bin', 'semver' ]
+1390 info install make-dir@3.1.0
+1391 info postinstall make-dir@3.1.0
+1392 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\media-typer
+1393 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\media-typer
+1394 info preinstall media-typer@0.3.0
+1395 verbose linkStuff [ false,
+1395 verbose linkStuff   false,
+1395 verbose linkStuff   false,
+1395 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1396 info linkStuff media-typer@0.3.0
+1397 verbose linkBins media-typer@0.3.0
+1398 verbose linkMans media-typer@0.3.0
+1399 verbose rebuildBundles media-typer@0.3.0
+1400 info install media-typer@0.3.0
+1401 info postinstall media-typer@0.3.0
+1402 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\memory-pager
+1403 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\memory-pager
+1404 info preinstall memory-pager@1.5.0
+1405 verbose linkStuff [ false,
+1405 verbose linkStuff   false,
+1405 verbose linkStuff   false,
+1405 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1406 info linkStuff memory-pager@1.5.0
+1407 verbose linkBins memory-pager@1.5.0
+1408 verbose linkMans memory-pager@1.5.0
+1409 verbose rebuildBundles memory-pager@1.5.0
+1410 info install memory-pager@1.5.0
+1411 info postinstall memory-pager@1.5.0
+1412 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\merge-descriptors
+1413 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\merge-descriptors
+1414 info preinstall merge-descriptors@1.0.1
+1415 verbose linkStuff [ false,
+1415 verbose linkStuff   false,
+1415 verbose linkStuff   false,
+1415 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1416 info linkStuff merge-descriptors@1.0.1
+1417 verbose linkBins merge-descriptors@1.0.1
+1418 verbose linkMans merge-descriptors@1.0.1
+1419 verbose rebuildBundles merge-descriptors@1.0.1
+1420 info install merge-descriptors@1.0.1
+1421 info postinstall merge-descriptors@1.0.1
+1422 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\methods
+1423 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\methods
+1424 info preinstall methods@1.1.2
+1425 verbose linkStuff [ false,
+1425 verbose linkStuff   false,
+1425 verbose linkStuff   false,
+1425 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1426 info linkStuff methods@1.1.2
+1427 verbose linkBins methods@1.1.2
+1428 verbose linkMans methods@1.1.2
+1429 verbose rebuildBundles methods@1.1.2
+1430 info install methods@1.1.2
+1431 info postinstall methods@1.1.2
+1432 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mime
+1433 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mime
+1434 info preinstall mime@1.6.0
+1435 verbose linkStuff [ false,
+1435 verbose linkStuff   false,
+1435 verbose linkStuff   false,
+1435 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1436 info linkStuff mime@1.6.0
+1437 verbose linkBins mime@1.6.0
+1438 verbose link bins [ { mime: 'cli.js' },
+1438 verbose link bins   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules\\.bin',
+1438 verbose link bins   false ]
+1439 verbose linkMans mime@1.6.0
+1440 verbose rebuildBundles mime@1.6.0
+1441 info install mime@1.6.0
+1442 info postinstall mime@1.6.0
+1443 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mime-db
+1444 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mime-db
+1445 info preinstall mime-db@1.52.0
+1446 verbose linkStuff [ false,
+1446 verbose linkStuff   false,
+1446 verbose linkStuff   false,
+1446 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1447 info linkStuff mime-db@1.52.0
+1448 verbose linkBins mime-db@1.52.0
+1449 verbose linkMans mime-db@1.52.0
+1450 verbose rebuildBundles mime-db@1.52.0
+1451 info install mime-db@1.52.0
+1452 info postinstall mime-db@1.52.0
+1453 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mime-types
+1454 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mime-types
+1455 info preinstall mime-types@2.1.35
+1456 verbose linkStuff [ false,
+1456 verbose linkStuff   false,
+1456 verbose linkStuff   false,
+1456 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1457 info linkStuff mime-types@2.1.35
+1458 verbose linkBins mime-types@2.1.35
+1459 verbose linkMans mime-types@2.1.35
+1460 verbose rebuildBundles mime-types@2.1.35
+1461 info install mime-types@2.1.35
+1462 info postinstall mime-types@2.1.35
+1463 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mimic-response
+1464 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mimic-response
+1465 info preinstall mimic-response@1.0.1
+1466 verbose linkStuff [ false,
+1466 verbose linkStuff   false,
+1466 verbose linkStuff   false,
+1466 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1467 info linkStuff mimic-response@1.0.1
+1468 verbose linkBins mimic-response@1.0.1
+1469 verbose linkMans mimic-response@1.0.1
+1470 verbose rebuildBundles mimic-response@1.0.1
+1471 info install mimic-response@1.0.1
+1472 info postinstall mimic-response@1.0.1
+1473 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\minimatch
+1474 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\minimatch
+1475 info preinstall minimatch@3.1.2
+1476 verbose linkStuff [ false,
+1476 verbose linkStuff   false,
+1476 verbose linkStuff   false,
+1476 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1477 info linkStuff minimatch@3.1.2
+1478 verbose linkBins minimatch@3.1.2
+1479 verbose linkMans minimatch@3.1.2
+1480 verbose rebuildBundles minimatch@3.1.2
+1481 info install minimatch@3.1.2
+1482 info postinstall minimatch@3.1.2
+1483 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\minimist
+1484 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\minimist
+1485 info preinstall minimist@1.2.6
+1486 verbose linkStuff [ false,
+1486 verbose linkStuff   false,
+1486 verbose linkStuff   false,
+1486 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1487 info linkStuff minimist@1.2.6
+1488 verbose linkBins minimist@1.2.6
+1489 verbose linkMans minimist@1.2.6
+1490 verbose rebuildBundles minimist@1.2.6
+1491 info install minimist@1.2.6
+1492 info postinstall minimist@1.2.6
+1493 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\minipass
+1494 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\minipass
+1495 info preinstall minipass@3.1.6
+1496 verbose linkStuff [ false,
+1496 verbose linkStuff   false,
+1496 verbose linkStuff   false,
+1496 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1497 info linkStuff minipass@3.1.6
+1498 verbose linkBins minipass@3.1.6
+1499 verbose linkMans minipass@3.1.6
+1500 verbose rebuildBundles minipass@3.1.6
+1501 info install minipass@3.1.6
+1502 info postinstall minipass@3.1.6
+1503 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\minizlib
+1504 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\minizlib
+1505 info preinstall minizlib@2.1.2
+1506 verbose linkStuff [ false,
+1506 verbose linkStuff   false,
+1506 verbose linkStuff   false,
+1506 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1507 info linkStuff minizlib@2.1.2
+1508 verbose linkBins minizlib@2.1.2
+1509 verbose linkMans minizlib@2.1.2
+1510 verbose rebuildBundles minizlib@2.1.2
+1511 info install minizlib@2.1.2
+1512 info postinstall minizlib@2.1.2
+1513 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mkdirp
+1514 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mkdirp
+1515 info preinstall mkdirp@1.0.4
+1516 verbose linkStuff [ false,
+1516 verbose linkStuff   false,
+1516 verbose linkStuff   false,
+1516 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1517 info linkStuff mkdirp@1.0.4
+1518 verbose linkBins mkdirp@1.0.4
+1519 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+1519 verbose link bins   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules\\.bin',
+1519 verbose link bins   false ]
+1520 verbose linkMans mkdirp@1.0.4
+1521 verbose rebuildBundles mkdirp@1.0.4
+1522 info install mkdirp@1.0.4
+1523 info postinstall mkdirp@1.0.4
+1524 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\moment
+1525 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\moment
+1526 info preinstall moment@2.29.3
+1527 verbose linkStuff [ false,
+1527 verbose linkStuff   false,
+1527 verbose linkStuff   false,
+1527 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1528 info linkStuff moment@2.29.3
+1529 verbose linkBins moment@2.29.3
+1530 verbose linkMans moment@2.29.3
+1531 verbose rebuildBundles moment@2.29.3
+1532 info install moment@2.29.3
+1533 info postinstall moment@2.29.3
+1534 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\moment-timezone
+1535 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\moment-timezone
+1536 info preinstall moment-timezone@0.5.34
+1537 verbose linkStuff [ false,
+1537 verbose linkStuff   false,
+1537 verbose linkStuff   false,
+1537 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1538 info linkStuff moment-timezone@0.5.34
+1539 verbose linkBins moment-timezone@0.5.34
+1540 verbose linkMans moment-timezone@0.5.34
+1541 verbose rebuildBundles moment-timezone@0.5.34
+1542 info install moment-timezone@0.5.34
+1543 info postinstall moment-timezone@0.5.34
+1544 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mongodb
+1545 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mongodb
+1546 info preinstall mongodb@4.5.0
+1547 verbose linkStuff [ false,
+1547 verbose linkStuff   false,
+1547 verbose linkStuff   false,
+1547 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1548 info linkStuff mongodb@4.5.0
+1549 verbose linkBins mongodb@4.5.0
+1550 verbose linkMans mongodb@4.5.0
+1551 verbose rebuildBundles mongodb@4.5.0
+1552 info install mongodb@4.5.0
+1553 info postinstall mongodb@4.5.0
+1554 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mongodb-connection-string-url
+1555 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mongodb-connection-string-url
+1556 info preinstall mongodb-connection-string-url@2.5.2
+1557 verbose linkStuff [ false,
+1557 verbose linkStuff   false,
+1557 verbose linkStuff   false,
+1557 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1558 info linkStuff mongodb-connection-string-url@2.5.2
+1559 verbose linkBins mongodb-connection-string-url@2.5.2
+1560 verbose linkMans mongodb-connection-string-url@2.5.2
+1561 verbose rebuildBundles mongodb-connection-string-url@2.5.2
+1562 info install mongodb-connection-string-url@2.5.2
+1563 info postinstall mongodb-connection-string-url@2.5.2
+1564 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mpath
+1565 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mpath
+1566 info preinstall mpath@0.8.4
+1567 verbose linkStuff [ false,
+1567 verbose linkStuff   false,
+1567 verbose linkStuff   false,
+1567 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1568 info linkStuff mpath@0.8.4
+1569 verbose linkBins mpath@0.8.4
+1570 verbose linkMans mpath@0.8.4
+1571 verbose rebuildBundles mpath@0.8.4
+1572 info install mpath@0.8.4
+1573 info postinstall mpath@0.8.4
+1574 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mquery
+1575 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mquery
+1576 info preinstall mquery@4.0.2
+1577 verbose linkStuff [ false,
+1577 verbose linkStuff   false,
+1577 verbose linkStuff   false,
+1577 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1578 info linkStuff mquery@4.0.2
+1579 verbose linkBins mquery@4.0.2
+1580 verbose linkMans mquery@4.0.2
+1581 verbose rebuildBundles mquery@4.0.2
+1582 verbose rebuildBundles [ 'debug', 'ms' ]
+1583 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mquery\node_modules\ms
+1584 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\mquery\node_modules\ms
+1585 info preinstall ms@2.1.2
+1586 verbose linkStuff [ false,
+1586 verbose linkStuff   false,
+1586 verbose linkStuff   false,
+1586 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules\\mquery\\node_modules' ]
+1587 info linkStuff ms@2.1.2
+1588 verbose linkBins ms@2.1.2
+1589 verbose linkMans ms@2.1.2
+1590 verbose rebuildBundles ms@2.1.2
+1591 info install ms@2.1.2
+1592 info postinstall ms@2.1.2
+1593 info install mquery@4.0.2
+1594 info postinstall mquery@4.0.2
+1595 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ms
+1596 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\ms
+1597 info preinstall ms@2.0.0
+1598 verbose linkStuff [ false,
+1598 verbose linkStuff   false,
+1598 verbose linkStuff   false,
+1598 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1599 info linkStuff ms@2.0.0
+1600 verbose linkBins ms@2.0.0
+1601 verbose linkMans ms@2.0.0
+1602 verbose rebuildBundles ms@2.0.0
+1603 info install ms@2.0.0
+1604 info postinstall ms@2.0.0
+1605 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\named-placeholders
+1606 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\named-placeholders
+1607 info preinstall named-placeholders@1.1.2
+1608 verbose linkStuff [ false,
+1608 verbose linkStuff   false,
+1608 verbose linkStuff   false,
+1608 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1609 info linkStuff named-placeholders@1.1.2
+1610 verbose linkBins named-placeholders@1.1.2
+1611 verbose linkMans named-placeholders@1.1.2
+1612 verbose rebuildBundles named-placeholders@1.1.2
+1613 verbose rebuildBundles [ 'lru-cache', 'yallist' ]
+1614 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\named-placeholders\node_modules\yallist
+1615 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\named-placeholders\node_modules\yallist
+1616 info preinstall yallist@2.1.2
+1617 verbose linkStuff [ false,
+1617 verbose linkStuff   false,
+1617 verbose linkStuff   false,
+1617 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules\\named-placeholders\\node_modules' ]
+1618 info linkStuff yallist@2.1.2
+1619 verbose linkBins yallist@2.1.2
+1620 verbose linkMans yallist@2.1.2
+1621 verbose rebuildBundles yallist@2.1.2
+1622 info install yallist@2.1.2
+1623 info postinstall yallist@2.1.2
+1624 info install named-placeholders@1.1.2
+1625 info postinstall named-placeholders@1.1.2
+1626 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\negotiator
+1627 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\negotiator
+1628 info preinstall negotiator@0.6.3
+1629 verbose linkStuff [ false,
+1629 verbose linkStuff   false,
+1629 verbose linkStuff   false,
+1629 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1630 info linkStuff negotiator@0.6.3
+1631 verbose linkBins negotiator@0.6.3
+1632 verbose linkMans negotiator@0.6.3
+1633 verbose rebuildBundles negotiator@0.6.3
+1634 info install negotiator@0.6.3
+1635 info postinstall negotiator@0.6.3
+1636 verbose rebuild bundle C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\node-addon-api
+1637 info build C:\Users\Utilizator\Desktop\Project\Extron\server\node_modules\node-addon-api
+1638 info preinstall node-addon-api@3.2.1
+1639 verbose linkStuff [ false,
+1639 verbose linkStuff   false,
+1639 verbose linkStuff   false,
+1639 verbose linkStuff   'C:\\Users\\Utilizator\\Desktop\\Project\\Extron\\server\\node_modules' ]
+1640 info linkStuff node-addon-api@3.2.1
+1641 verbose linkBins node-addon-api@3.2.1
+1642 verbose linkMans node-addon-api@3.2.1
+1643 verbose rebuildBundles node-addon-api@3.2.1
+1644 info install node-addon-api@3.2.1
+1645 verbose unsafe-perm in lifecycle true
+1646 info node-addon-api@3.2.1 Failed to exec install script
+1647 verbose stack Error: node-addon-api@3.2.1 install: `node-gyp rebuild`
+1647 verbose stack Exit status 1
+1647 verbose stack     at EventEmitter.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+1647 verbose stack     at EventEmitter.emit (events.js:110:17)
+1647 verbose stack     at ChildProcess.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\spawn.js:14:12)
+1647 verbose stack     at ChildProcess.emit (events.js:110:17)
+1647 verbose stack     at maybeClose (child_process.js:1015:16)
+1647 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+1648 verbose pkgid node-addon-api@3.2.1
+1649 verbose cwd C:\Users\Utilizator\Desktop\Project\Extron\server
+1650 error Windows_NT 6.3.9600
+1651 error argv "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+1652 error node v0.12.2
+1653 error npm  v2.7.4
+1654 error code ELIFECYCLE
+1655 error node-addon-api@3.2.1 install: `node-gyp rebuild`
+1655 error Exit status 1
+1656 error Failed at the node-addon-api@3.2.1 install script 'node-gyp rebuild'.
+1656 error This is most likely a problem with the node-addon-api package,
+1656 error not with npm itself.
+1656 error Tell the author that this fails on your system:
+1656 error     node-gyp rebuild
+1656 error You can get their info via:
+1656 error     npm owner ls node-addon-api
+1656 error There is likely additional logging output above.
+1657 verbose exit [ 1, true ]
