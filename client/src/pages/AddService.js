@@ -64,9 +64,6 @@ const AddService = () => {
 
   const refreshToken = async () => {
     try {
-        // // const decoded = jwt_decode(response.data.accessToken);
-        // const token = Cookies.get("token");
-        // const decoded = jwt_decode(token);
         const token = Cookies.get("token");
         if (!token) {
           history.push("/");
@@ -77,7 +74,6 @@ const AddService = () => {
             const response = await axios.get('http://localhost:5000/token');
             setToken(response.data.accessToken);
             Cookies.set("token", response.data.accessToken);
-            // decoded = jwt_decode(response.data.accessToken);
           
         setName(decoded.name);
         setCompany(decoded.company);

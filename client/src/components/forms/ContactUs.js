@@ -61,10 +61,7 @@ export default () => {
   const heading = <>Feel free to <span tw="text-primary-500">get in touch</span><wbr/> with us.</>
   const description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   const submitButtonText = "Send"
-  // const formAction = "#"
-  // const formMethod = "get"
   const textOnLeft = true
- // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
 
   return (
     <Container>

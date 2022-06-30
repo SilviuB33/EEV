@@ -46,30 +46,23 @@ export default ({
   imageShadow = true,
   faqs = null
 }) => {
-  /*
-   * You can modify FAQs either by modifying the below defaultFaqs array or by passing a custom array of FAQs using
-   * the faqs prop
-   */
+
   const defaultFaqs = [
     {
-      question: "Do I need an Energy Management Service?",
-      answer:
-        "Yes, and no. It all depends on your consumption. By the law no. 121 from 18 july of 2014 any industrail company that has an anual consumption higher than 1000 TEP requires an energy management service or an energy manager."
+      question: "",
+      answer: ""
     },
     {
-      question: "Lorem ipsum dolor sit amet?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      question: "",
+      answer: ""
     },
     {
-      question: "Lorem ipsum dolor sit amet?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      question: "",
+      answer: ""
     },
     {
-      question: "Lorem ipsum dolor sit amet?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      question: "",
+      answer: ""
     }
   ];
 

@@ -68,7 +68,6 @@ export default ({
   textOnLeft = true
  
 }) => {
-  // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
 
   return (
     <Container>

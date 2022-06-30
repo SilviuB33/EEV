@@ -6,7 +6,6 @@ import styled from "styled-components"; //eslint-disable-line
 import Header from "components/headers/light.js";
 import Footer from "components/footers/Footer.js";
 import Features from "components/features/FeatureDashboard.js";
-// import Features from "components/features/ThreeColWithSideImage.js";
 import { NavLink, NavLinks, PrimaryLink as PrimaryLinkBase, LogoLink, NavToggle, DesktopNavLinks } from "components/headers/light.js";
 import { useHistory } from "react-router-dom";
 import { useState } from "react";
@@ -29,9 +28,6 @@ const StyledHeader = styled(Header)`
   }
 `;
 const PrimaryLink = tw(PrimaryLinkBase)`rounded-full`;
-/* hocus: stands for "on hover or focus"
- * hocus:bg-primary-700 will apply the bg-primary-700 class on hover or focus
- */
 const Subheading = tw.span`uppercase tracking-wider text-sm`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
 const HeroContainer = tw.div`z-20 relative px-6 sm:px-8 mx-auto h-full flex flex-col`;
@@ -77,9 +73,6 @@ const handleServiceSelection = (e) => {
 
 const refreshToken = async () => {
   try {
-      // // const decoded = jwt_decode(response.data.accessToken);
-      // const token = Cookies.get("token");
-      // const decoded = jwt_decode(token);
       const token = Cookies.get("token");
       if (!token) {
         history.push("/");
@@ -90,7 +83,6 @@ const refreshToken = async () => {
           const response = await axios.get('http://localhost:5000/token');
           setToken(response.data.accessToken);
           Cookies.set("token", response.data.accessToken);
-          // decoded = jwt_decode(response.data.accessToken);
         }
       setName(decoded.name);
       setCompany(decoded.company);
@@ -265,7 +257,6 @@ const deleteMessagesLoggedIn = async (id) => {
             <Features
         subheading={<Subheading>We have the following clients</Subheading>}
         heading="Clients"
-        // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     />
        <Content>
        <Table striped bordered hover>
@@ -294,7 +285,6 @@ const deleteMessagesLoggedIn = async (id) => {
          <Features
         subheading={<Subheading>We have the following raports:</Subheading>}
         heading="Consumption"
-        // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     />
          <Content>
          
@@ -328,7 +318,6 @@ const deleteMessagesLoggedIn = async (id) => {
           <Features
         subheading={<Subheading>We have the following services:</Subheading>}
         heading="Services"
-        // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     />
           <Content>
       <Table striped bordered hover>
@@ -360,7 +349,6 @@ const deleteMessagesLoggedIn = async (id) => {
         <Features
         subheading={<Subheading>We have the following messages:</Subheading>}
         heading="Messages"
-        // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     />
         <Content>
       <Table striped bordered hover>
@@ -393,7 +381,6 @@ const deleteMessagesLoggedIn = async (id) => {
         <Features
         subheading={<Subheading>We have the following messages from the users:</Subheading>}
         heading="Messages from clients"
-        // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     />
           <Content>
       <Table striped bordered hover>
@@ -426,7 +413,6 @@ const deleteMessagesLoggedIn = async (id) => {
         <Features
         subheading={<Subheading>We have the following clients with services</Subheading>}
         heading="Clients and Services"
-        // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     />
     <select className="form-select" aria-label="Default select example" value={selectedUser} onChange={handleUserSelection}>
     <option value>Please select a client</option>

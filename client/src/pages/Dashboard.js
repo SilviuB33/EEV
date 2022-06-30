@@ -100,7 +100,6 @@ const Dashboard = () => {
               const response = await axios.get('http://localhost:5000/token');
               setToken(response.data.accessToken);
               Cookies.set("token", response.data.accessToken);
-              // decoded = jwt_decode(response.data.accessToken);
             }
             setName(decoded.name);
             setCompany(decoded.company);

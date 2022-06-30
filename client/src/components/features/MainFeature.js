@@ -67,8 +67,8 @@ export default ({
     </>
   ),
   description = "",
-  primaryButtonText = "Learn More",
-  primaryButtonUrl = "/aboutus",
+  primaryButtonText = "",
+  primaryButtonUrl = "/",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,
@@ -81,23 +81,18 @@ export default ({
   iconFilled = true,
   iconContainerCss = null
 }) => {
-  // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
-
-  /*
-   * Change the features variable as you like, add or delete objects
-   * `icon` must be a React SVG component. See how BriefcaseIcon is imported above. For a full list of available icons, see Feather Icons.
-   */
+ 
   const defaultFeatures = [
     {
       Icon: BriefcaseIcon,
-      title: "Professionalism",
-      description: "Avem cei mai buni profesionisti din țară.",
+      title: "",
+      description: "",
       iconContainerCss: tw`bg-teal-300 text-teal-800`
     },
     {
       Icon: MoneyIcon,
-      title: "Affordable",
-      description: "Promitem să menținem printre cele mai bune prețuri din industrie.",
+      title: "",
+      description: "",
       iconContainerCss: tw`bg-red-300 text-red-800`
     }
   ];

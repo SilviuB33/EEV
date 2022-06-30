@@ -35,7 +35,7 @@ export default () => {
       }}
       />
       <FeatureStats
-      heading = "We have qualified employees certified, by the Romanian Ministry of Energy!"
+      heading = "We have qualified employees certified by the Romanian Ministry of Energy!"
       description= "Our employees are qualified for the job they perform and show tenacity and experience."
       stats={[{key:"Management", value:"Energy"}, {key:"Audit", value:"Complex"}, {key:"Engineering", value:"Design"}]}
       />
@@ -68,19 +68,22 @@ export default () => {
         subheading="Our expertise"
         heading={<>Made by and for  <HighlightedText>Professionals</HighlightedText></>}
         description="The team members are certified specialists, authorized by ME (Ministry of Energy) and ANRE (National Authority for Energy Regulation) with internal and EUROPEAN recognition"
+        primaryButtonText = "About Us"
+        primaryButtonUrl = "/aboutus"
         features={[{
           Icon: BriefcaseIcon,
           title:"professionalism",
-          description:"Among the best professionals in the country",},
+          description:"Among the best professionals in the country",
+          iconContainerCss: tw`bg-teal-300 text-teal-800`},
           {
           Icon:MoneyIcon,
           title:"Affordable",
-          description:"Quality at affordable prices"
+          description:"Quality at affordable prices",
+          iconContainerCss: tw`bg-teal-300 text-teal-800`
           }]}
       />
       <FAQ
       subheading = "Frequently Asked Questions"
-      // heading = "You have Questions ?"
       description = "We got the answers to your questions"
       heading={<>Got <HighlightedText>Questions?</HighlightedText></>}
       faqs={[{question:"Legally, do I need energy management?", answer:"According to law 121/2014, economic operators are obliged to appoint an energy manager, certified by the Ministry of Energy or the National Regulatory Authority in the Field of Energy, within the term of validity of the attestation, according to the legislation in force, or to conclude an energy management contract with an individual certified by the Energy efficiency Directorate, who has the status of an authorized individual person, or with a legal entity providing energy services, certified under the law"}, 
