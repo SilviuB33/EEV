@@ -1,6 +1,7 @@
 import React from "react";
 import tw from "twin.macro";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
+import { css } from "styled-components/macro";
 import Hero from "components/hero/Hero.js";
 import Features from "components/features/MainFeature2.js";
 import MainFeature from "components/features/MainFeature.js";
@@ -19,6 +20,7 @@ import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sig
 const HighlightedText = tw.span`text-primary-500`
 
 export default () => {
+
   return (
     <AnimationRevealPage>
       <Hero
