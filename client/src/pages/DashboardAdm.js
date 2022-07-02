@@ -284,7 +284,7 @@ const deleteMessagesLoggedIn = async (id) => {
          </Content>
          <Features
         subheading={<Subheading>We have the following clients with services</Subheading>}
-        heading="Clients and Services"
+        heading="Change the client service"
     />
     <select className="form-select" aria-label="Default select example" value={selectedUser} onChange={handleUserSelection}>
     <option value>Please select a client</option>
