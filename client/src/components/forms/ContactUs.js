@@ -59,7 +59,7 @@ export default () => {
 
   const subheading = "Contact Us"
   const heading = <>Feel free to <span tw="text-primary-500">get in touch</span><wbr/> with us.</>
-  const description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  const description = "We will get back to you as soon as possible."
   const submitButtonText = "Send"
   const textOnLeft = true
 

@@ -1,6 +1,7 @@
 import React from "react";
 import tw from "twin.macro";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
+// eslint-disable-next-line
 import { css } from "styled-components/macro";
 import Hero from "components/hero/Hero.js";
 import Features from "components/features/MainFeature2.js";

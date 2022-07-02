@@ -42,11 +42,17 @@ const SubmitButton = styled.button`
 
 const EditServices = () => {
     const [title, setTitle] = useState('');
+    // eslint-disable-next-line
     const [name, setName] = useState('');
+    // eslint-disable-next-line
     const [token, setToken] = useState('');
+    // eslint-disable-next-line
     const [expire, setExpire] = useState('');
+    // eslint-disable-next-line
     const [company, setCompany] = useState('');
+    // eslint-disable-next-line
     const [email, setEmail] = useState('');
+    // eslint-disable-next-line
     const [admin, setAdmin] = useState('');
     const [price, setPrice] = useState('');
     const history = useHistory();

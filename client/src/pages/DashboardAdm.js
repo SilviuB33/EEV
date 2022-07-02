@@ -283,6 +283,32 @@ const deleteMessagesLoggedIn = async (id) => {
              </Table>
          </Content>
          <Features
+        subheading={<Subheading>We have the following clients with services</Subheading>}
+        heading="Clients and Services"
+    />
+    <select className="form-select" aria-label="Default select example" value={selectedUser} onChange={handleUserSelection}>
+    <option value>Please select a client</option>
+    { userWithNameAndId.map((user, index) => (
+      <option
+    key = {user.id} value= {user.id}> {user.name} 
+    </option>  
+    ))}
+</select>
+<br>
+</br>
+<select className="form-select" aria-label="Default select example" value={selectedService} onChange={handleServiceSelection}>
+<option value>Please select a service</option>
+    { servicesWithNameAndId.map((service, index) => (
+      <option
+    key = {service.id} value= {service.id}> {service.title} 
+    </option>  
+    ))}
+</select>
+<br></br>
+<Button variant="primary" onClick={ () => updateUserService(selectedUser, selectedService) }>Edit user and service</Button>
+<br>
+</br>
+         <Features
         subheading={<Subheading>We have the following raports:</Subheading>}
         heading="Consumption"
     />
@@ -410,32 +436,6 @@ const deleteMessagesLoggedIn = async (id) => {
                 </tbody>
 </Table>
        </Content>
-        <Features
-        subheading={<Subheading>We have the following clients with services</Subheading>}
-        heading="Clients and Services"
-    />
-    <select className="form-select" aria-label="Default select example" value={selectedUser} onChange={handleUserSelection}>
-    <option value>Please select a client</option>
-    { userWithNameAndId.map((user, index) => (
-      <option
-    key = {user.id} value= {user.id}> {user.name} 
-    </option>  
-    ))}
-</select>
-<br>
-</br>
-<select className="form-select" aria-label="Default select example" value={selectedService} onChange={handleServiceSelection}>
-<option value>Please select a service</option>
-    { servicesWithNameAndId.map((service, index) => (
-      <option
-    key = {service.id} value= {service.id}> {service.title} 
-    </option>  
-    ))}
-</select>
-<br></br>
-<Button variant="primary" onClick={ () => updateUserService(selectedUser, selectedService) }>Edit user and service</Button>
-<br>
-</br>
        <Footer />
      </AnimationRevealPage>
    );

@@ -49,11 +49,16 @@ const submitButtonText = "Add Item";
 const AddService = () => {
   const [title, setTitle] = useState('');
   const [price, setPrice] = useState('');
+  // eslint-disable-next-line
   const [name, setName] = useState('');
+  // eslint-disable-next-line
   const [token, setToken] = useState('');
   const [expire, setExpire] = useState('');
+  // eslint-disable-next-line
   const [company, setCompany] = useState('');
+  // eslint-disable-next-line
   const [email, setEmail] = useState('');
+  // eslint-disable-next-line
   const [admin, setAdmin] = useState('');
 
   const history = useHistory();

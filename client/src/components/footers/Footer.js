@@ -16,7 +16,6 @@ const LogoImg = tw.img`w-8`;
 const LogoText = tw.h5`ml-2 text-xl font-black text-primary-500`;
 const CompanyDescription = tw.p`mt-4 max-w-xs font-medium text-sm mx-auto md:mx-0 md:mr-4 `;
 
-
 export default () => {
   return (
     <Container>
