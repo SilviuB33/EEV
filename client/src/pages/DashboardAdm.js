@@ -140,6 +140,7 @@ const getUserNameandId = async () => {
   setUsersWithNameAndId(response.data);
 }
 catch (error) {
+  console.log(error);
 }
 }
 
@@ -174,29 +175,29 @@ const Logout = async () => {
   }
 }
 
-const getMessages = async () => {
-  const response = await axios.get('http://localhost:5000/messages');
-  setMessages(response.data);
-}
+  const getMessages = async () => {
+    const response = await axios.get('http://localhost:5000/messages');
+    setMessages(response.data);
+  }
 
-const deleteMessages = async (id) => {
-  await axios.delete(`http://localhost:5000/messages/${id}`);
-  getMessages();
-  alert("Message Deleted Successfully!");
-  history.push("/dashboardAdm");
-}
+  const deleteMessages = async (id) => {
+    await axios.delete(`http://localhost:5000/messages/${id}`);
+    getMessages();
+    alert("Message Deleted Successfully!");
+    history.push("/dashboardAdm");
+  }
 
-const getMessagesLoggedIn = async () => {
-  const response = await axios.get('http://localhost:5000/messagesloggedin');
-  setMessagesLoggedIn(response.data);
-}
+  const getMessagesLoggedIn = async () => {
+    const response = await axios.get('http://localhost:5000/messagesloggedin');
+    setMessagesLoggedIn(response.data);
+  }
 
-const deleteMessagesLoggedIn = async (id) => {
-  await axios.delete(`http://localhost:5000/messagesloggedin/${id}`);
-  getMessagesLoggedIn();
-  alert("Message Deleted Successfully!");
-  history.push("/dashboardAdm");
-}
+  const deleteMessagesLoggedIn = async (id) => {
+    await axios.delete(`http://localhost:5000/messagesloggedin/${id}`);
+    getMessagesLoggedIn();
+    alert("Message Deleted Successfully!");
+    history.push("/dashboardAdm");
+  }
 
   const getRaports = async () => {
       const response = await axios.get('http://localhost:5000/Raports');
@@ -208,15 +209,15 @@ const deleteMessagesLoggedIn = async (id) => {
       getRaports();
   }
   
-    const getServices = async () => {
-        const response = await axios.get('http://localhost:5000/Services');
-        setService(response.data);
-    }
+  const getServices = async () => {
+      const response = await axios.get('http://localhost:5000/Services');
+      setService(response.data);
+  }
   
-    const deleteService = async (id) => {
-        await axios.delete(`http://localhost:5000/Services/${id}`);
-        getServices();
-    }
+  const deleteService = async (id) => {
+      await axios.delete(`http://localhost:5000/Services/${id}`);
+      getServices();
+  }
 
   const updateUserService = async (userId, serviceId) => {
     if (userId && serviceId) {
@@ -230,7 +231,7 @@ const deleteMessagesLoggedIn = async (id) => {
       getServiceNameandId();
       setSelectedUser();
       setSelectedService();
-  }      
+    }      
   }
 
   const navLinks = [
