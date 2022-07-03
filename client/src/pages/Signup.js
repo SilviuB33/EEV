@@ -69,7 +69,7 @@ const IllustrationImage = styled.div`
       } catch (error) {
           if (error.response) {
               console.log(error.response.data);
-                alert(error.response.data.msg);
+              alert(error.response.data.msg);
           }
       }
   }

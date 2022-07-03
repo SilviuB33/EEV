@@ -51,6 +51,9 @@ export const getUsersWithServices = async(req, res) => {
  
 export const Register = async(req, res) => {
     const { name, email, company, password, confPassword } = req.body;
+    if(company.length == 0) return res.status(400).json({msg:"Company Name is required"});
+    if(email.length == 0) return res.status(400).json({msg:"Email address is required"});
+    if(name.length == 0) return res.status(400).json({msg:"Name is required"});
     if(password.length <= 8) return res.status(400).json({msg:"Password is too short, minimum 6 characters!"});
     if(password !== confPassword) return res.status(400).json({msg: "Password and Confirm Password do not match!"});
     const salt = await bcrypt.genSalt();
@@ -62,7 +65,7 @@ export const Register = async(req, res) => {
             company : company,
             password: hashPassword
         });
-        res.json({msg: "Registration Successful"});
+        res.json({msg: "Registration Successful!"});
     } catch (error) {
         console.log(error);
     }

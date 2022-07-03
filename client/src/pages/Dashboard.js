@@ -131,7 +131,7 @@ const saveMessage = async (e) => {
       subject: subject,
       message: message,
   });
-  alert('Message submited successfully!')
+  alert('Message submitted successfully!')
   history.push("/dashboard");
 }
 
@@ -172,7 +172,7 @@ const saveMessage = async (e) => {
           user_name: name,
           user_company: company,
       });
-      alert('Raport submited successfully')
+      alert('Report submitted successfully')
       history.push("/dashboard");
   }
 

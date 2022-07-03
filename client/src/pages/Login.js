@@ -90,11 +90,11 @@ return (
                 value={email}
                 type="email" 
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="email" />
+                placeholder="Email" />
                 <Input type="password" 
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder="password" />
+                placeholder="Password" />
                 <SubmitButton type="submit"
                 value="Sign In">
                 <SubmitButtonIcon className="icon" />
