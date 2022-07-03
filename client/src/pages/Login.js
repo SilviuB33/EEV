@@ -50,6 +50,8 @@ export default function (){
   const [password, setPassword] = useState('');
   // eslint-disable-next-line
   const [admin] = useState('');
+    // eslint-disable-next-line
+  const [msg, setMsg] = useState('');
   const history = useHistory();
 
   const Auth = async (e) => {
@@ -69,6 +71,7 @@ export default function (){
           };
       } catch (error) {
           if (error.response) {
+            alert(error.response.data.msg)
             console.log(error.response);
           }
       }
