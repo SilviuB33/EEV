@@ -98,7 +98,7 @@ export const Login = async(req, res) => {
             }
         });
         const match = await bcrypt.compare(req.body.password, user[0].password);
-        if(!match) return res.status(400).json({msg: "Wrong Password"});
+        if(!match) return res.status(400).json({msg: "Wrong Password!"});
         const userId = user[0].id;
         const name = user[0].name;
         const email = user[0].email;
@@ -121,7 +121,7 @@ export const Login = async(req, res) => {
         // });
         res.json({ accessToken, admin, refreshToken });
     } catch (error) {
-        res.status(404).json({msg:"Email not found"});
+        res.status(404).json({msg:"Email not found!"});
     }
 }
  
