@@ -3,7 +3,7 @@ import db from "../config/db.js";
  
 const { DataTypes } = Sequelize;
  
-const Raport = db.define('raports',{
+const Raport = db.define('reports',{
     month:{
         type: DataTypes.STRING
     },

@@ -1,5 +1,4 @@
 import Raport from "../models/RaportModel.js";
-import Users from "../models/UserModel.js";
  
 export const getAllRaports = async (req, res) => {
     try {

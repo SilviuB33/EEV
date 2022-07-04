@@ -3,7 +3,7 @@ import db from "../config/db.js";
  
 const { DataTypes } = Sequelize;
  
-const MessagesLoggedIn = db.define('messagedloggedin',{
+const MessagesLoggedIn = db.define('messagesloggedin',{
     subject:{
         type: DataTypes.STRING
     },
