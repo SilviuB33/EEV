@@ -62,14 +62,8 @@ export default ({
     
      <NavLinks key={1}>
       <NavLink href="/AboutUs">Despre noi</NavLink>
-      {/* <NavLink href="/BlogIndex">Blog</NavLink> */}
       <NavLink href="/Pricing">Prețuri</NavLink>
       <NavLink href="/ContactUs">Contactează-ne!</NavLink>
-      {/* <NavLink href="/Dashboard">Proiecte</NavLink> */}
-      {/* <NavLink href="/Login" tw="lg:ml-12!">
-        Login
-      </NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/SignUp">Sign Up</PrimaryLink> */}
     </NavLinks>
   ];
 

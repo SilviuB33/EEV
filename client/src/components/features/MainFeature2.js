@@ -64,13 +64,13 @@ export default ({ cards = null, heading = "", subheading = "", description = "" 
     {
       imageSrc: ShieldIconImage,
       title: "Fully Secure",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      description: "Secure"
     },
-    { imageSrc: SupportIconImage, title: "24/7 Support" , description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"},
-    { imageSrc: CustomizeIconImage, title: "Customizable", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit," },
-    { imageSrc: ReliableIconImage, title: "Reliable", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"  },
-    { imageSrc: FastIconImage, title: "Fast", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit," },
-    { imageSrc: SimpleIconImage, title: "Easy", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit," }
+    { imageSrc: SupportIconImage, title: "24/7 Support" , description: "Always secure"},
+    { imageSrc: CustomizeIconImage, title: "Customizable", description: "Support" },
+    { imageSrc: ReliableIconImage, title: "Reliable", description: "Reliable"  },
+    { imageSrc: FastIconImage, title: "Fast", description: "Fast" },
+    { imageSrc: SimpleIconImage, title: "Easy", description: "Easy" }
   ];
 
   if (!cards) cards = defaultCards;

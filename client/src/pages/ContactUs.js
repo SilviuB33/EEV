@@ -67,7 +67,7 @@ export default () => {
             description: (
               <>
                 <Address>
-                  <AddressLine>Street Col Ion Nicolin, No. 4</AddressLine>
+                <AddressLine>Street Col Ion Nicolin, No. 4</AddressLine>
                 </Address>
                 <Email>extronenergyvision@gmail.com</Email>
                 <Phone>+40 0737031807</Phone>

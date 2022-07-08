@@ -48,32 +48,32 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
-export default ({ cards = null, heading = "Our Offices", subheading = "Locations", description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }) => {
+export default ({ cards = null, heading = "Our Offices", subheading = "Locations", description = "You can find us here" }) => {
 
   const defaultCards = [
     {
       title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security."
+      description: "Always secure"
     },
     { 
       title: "24/7 Support",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      description: "Support"
     },
     { 
       title: "Reliable",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      description: "Reliable"
     },
     { 
       title: "Easy",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      description: "Easy"
     },
     { 
       title: "Customizable",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      description: "Customizable"
     },
     { 
       title: "Fast",
-      description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."
+      description: "Fast"
     },
   ];
 
@@ -92,7 +92,7 @@ export default ({ cards = null, heading = "Our Offices", subheading = "Locations
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>
                 <p className="description">
-                  {card.description || "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."}
+                  {card.description || "Description"}
                 </p>
               </span>
             </Card>

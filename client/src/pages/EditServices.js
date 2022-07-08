@@ -90,7 +90,7 @@ const EditServices = () => {
           setEmail(decoded.email);
           setExpire(decoded.exp);
           setAdmin(decoded.admin);
-          if (decoded.admin === false){
+          if (decoded.admin === null){
             history.push("/");
           }
         }
