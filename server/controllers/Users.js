@@ -115,10 +115,7 @@ export const Login = async(req, res) => {
                 id: userId
             }
         });
-        // res.cookie('refreshToken', refreshToken,{
-        //     httpOnly: true,
-        //     maxAge: 24 * 60 * 60 * 1000
-        // });
+;
         res.json({ accessToken, admin, refreshToken });
     } catch (error) {
         res.status(404).json({msg:"Email not found!"});
