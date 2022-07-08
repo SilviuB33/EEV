@@ -1,7 +1,7 @@
-/* eslint-disable no-unused-vars */
 import React from "react";
 import tw from "twin.macro";
-import styled from "styled-components";
+  // eslint-disable-next-line
+import styled from "styled-components"; 
 import LogoImage from "../../images/logo.svg";
 const Container = tw.div`relative bg-gray-200 -mx-8 -mb-8 px-8`;
 const FiveColumns = tw.div`max-w-screen-xl mx-auto py-16 lg:py-20 flex flex-wrap justify-between`;

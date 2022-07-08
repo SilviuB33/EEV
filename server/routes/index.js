@@ -72,5 +72,3 @@ router.delete('/logout', Logout);
 router.get('/userswithservices', getUsersWithServices);
  
 export default router;
-
-
