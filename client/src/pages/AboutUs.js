@@ -58,7 +58,9 @@ const navLinks = [
         </HeroContainer>
       <MainFeature1
         subheading={<Subheading>About Extron</Subheading>}
-        description="We are a modern company adapted to the current requirements of the energy market, designed to help and develop economic companies that face difficulties in improving energy efficiency and reducing their carbon footprint"
+        description="We are a modern company adapted to the current requirements of the energy market, 
+        designed to help and develop economic companies that face difficulties in improving energy efficiency 
+        and reducing their carbon footprint"
         heading="We are a MODERN company"
         buttonRounded={false}
         primaryButtonText="Get in touch!"
@@ -69,7 +71,8 @@ const navLinks = [
       />
       <MainFeature1
         subheading={<Subheading>Our Vision</Subheading>}
-        description="We are fighting for a cleaner and greener future where the environmental impact is significantly reduced. We promote innovative solutions to reduce the carbon footprint.
+        description="We are fighting for a cleaner and greener future where the environmental impact is significantly reduced.
+        We promote innovative solutions to reduce the carbon footprint.
         We support all our partners in completing ESG (environmental, social, and corporate governance) and CDP (carbon disclosure project) statements."
         heading="For a sustainable FUTURE"
         buttonRounded={false}
