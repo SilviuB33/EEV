@@ -37,7 +37,7 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 `;
 
 export default ({
-  subheading = "Intrebari frecvente",
+  subheading = "Frequent Questions",
   heading = "Got any Questions ?",
   description = "We got the answers to your questions",
   faqs = [
