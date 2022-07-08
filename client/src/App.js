@@ -1,7 +1,6 @@
 import "tailwindcss/dist/base.css";
 import "styles/globalStyles.css";
 import React from "react";
-
 import Home from "pages/Home.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "pages/Login.js";
